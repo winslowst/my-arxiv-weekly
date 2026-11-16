@@ -23,6 +23,33 @@ import os
 import re
 import smtplib
 from collections import defaultdict
+
+
+def load_dotenv(path=None):
+    """Load KEY=VALUE from a local .env into os.environ without overwriting.
+
+    Resolution order: explicit path, current directory, script directory. The
+    .env file is gitignored so API keys never enter the repository.
+    """
+    candidates = []
+    if path:
+        candidates.append(path)
+    candidates.append(os.path.join(os.getcwd(), ".env"))
+    candidates.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env"))
+    for candidate in candidates:
+        if not os.path.exists(candidate):
+            continue
+        with open(candidate, "r", encoding="utf-8") as handle:
+            for line in handle:
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                key, value = line.split("=", 1)
+                key, value = key.strip(), value.strip().strip('"').strip("'")
+                if key and key not in os.environ:
+                    os.environ[key] = value
+        return
+
 from email.header import Header
 from email.mime.text import MIMEText
 from email.utils import formataddr, formatdate
@@ -446,6 +473,7 @@ def main():
     parser.add_argument("--index", default=None,
                          help="index note path for --obsidian (default: <vault-dir>/周报索引.md)")
     args = parser.parse_args()
+    load_dotenv()
     logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")
     if args.dry_run and args.send:
         parser.error("--dry-run 与 --send 不能同时使用")
