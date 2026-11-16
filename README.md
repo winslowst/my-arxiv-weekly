@@ -1,7 +1,11 @@
 # 论文周报 · 城市经济 / 金融学 / AI与经济学 / 企业创新
 
-每天抓取 arXiv 新论文；每周一汇总 arXiv + OpenAlex 期刊元数据，去重后推送一封邮件周报。
+每天抓取 arXiv 新论文；每周一汇总 arXiv + OpenAlex 期刊元数据，去重后写入本地 Obsidian 研究库（也可选发邮件）。
 本仓库由 [Vincentqyw/cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) fork 改造，已清除上游 CV 论文数据，只保留本人四个研究方向。
+
+> **当前交付方式 = Obsidian**（不用配邮箱）。两套周报每周一自动写入
+> `D:\Desktop\claude code agent\文献阅读工作流\ResearchVault\02vault\城市经济学\周报\`，
+> 每篇都带 `evidence_status: metadata_only` frontmatter，只含元数据、不可当精读笔记引用。
 
 > 本文件由 `Run Arxiv Papers Daily` 工作流每日重绘为「按方向分组的论文表格」（顶部项目说明会保留）。
 > 完整配置说明见 [docs/README.md](docs/README.md)。
@@ -17,30 +21,37 @@
 
 检索词写在 [config.yaml](config.yaml) 的 `keywords` 与 `weekly_report.journal_queries`，可自行增删。arXiv 几乎不收录中文文献，故检索词用英文短语。
 
-## 每周推送报告
+## 每周推送报告（写入 Obsidian）
 
-- **时间**：`.github/workflows/weekly-report.yml`，每周一 09:00 UTC（北京时间 **17:00**）。每日 08:00（北京时间）由 `Run Arxiv Papers Daily` 抓取 arXiv。
+两套周报都由本地 DSH 定时任务在每周一自动执行，产出写入同一个 vault 目录：
+
+| 任务 | 周一时间 | 脚本 | 产出笔记 |
+|---|---|---|---|
+| 四方向速览 | 08:30 | `weekly_report.py --obsidian`（本仓库） | `论文周报 <周次>.md` |
+| Elsevier 中文精读 | 08:00 | `export_obsidian.py`（上层 dsh版本目录） | `城市经济学周报 <周次>.md` |
+
 - **窗口**：上一完整周，Asia/Shanghai，`周一 00:00 ≤ 论文日期 < 下周一 00:00`（左闭右开）。
-- **内容**：四个方向的新论文，按 **DOI → arXiv ID → 标题归一化** 去重，每条标注来源（arXiv / OpenAlex / Elsevier Scopus）与日期口径（arXiv 用 `updated`；期刊用 `publication_date` / `coverDate`），并附期刊名与 DOI 链接。
-- **数据源**：arXiv（每日抓取）+ OpenAlex（期刊元数据，只读）；Elsevier Scopus 可选，默认关闭。
+- **内容**：四方向按 DOI → arXiv ID → 标题归一化去重，每条标注来源（arXiv / OpenAlex）与日期口径；Elsevier 那套是 24 本期刊的中文四段式精读。
+- **数据源**：arXiv（GitHub Actions 每日抓取，本地任务先 `git pull` 拉取）+ OpenAlex（期刊元数据，只读）；Elsevier Scopus 可选，默认关闭。
 - **只取元数据**：题名、作者、期刊、DOI、日期；不取全文、不做批量收割。
+- **证据等级**：所有周报笔记标 `evidence_status: metadata_only`，只做召回与导航；要正式引用请先按 `模板/论文精读模板.md` 建立精读笔记。
 
-### 启用邮件发送
+手动执行方式：
 
-在仓库 **Settings → Secrets and variables → Actions** 添加：
+```bash
+# 四方向速览（本仓库）
+python weekly_report.py --obsidian --vault-dir "D:\Desktop\claude code agent\文献阅读工作流\ResearchVault\02vault\城市经济学\周报"
 
-| Secret | 用途 |
-|---|---|
-| `MAIL_USERNAME` | 发件地址 |
-| `MAIL_PASSWORD` | SMTP 授权码 / 应用密码 |
-| `MAIL_TO` | 可选；覆盖 `weekly_report.to`，多个收件人用逗号分隔 |
-| `OPENALEX_API_KEY` | openalex.org 免费 key |
-| `ELSEVIER_API_KEY` | 可选；仅当 `config.yaml` 里 `sources.elsevier: true` 时需要 |
+# Elsevier 中文精读（上层 dsh版本目录）
+cd .. && python export_obsidian.py --vault-dir "D:\Desktop\claude code agent\文献阅读工作流\ResearchVault\02vault\城市经济学\周报" --all
+```
 
-同时在 [config.yaml](config.yaml) 填 `weekly_report.to`，并按邮箱服务商核对 `smtp_host` / `smtp_port` / `smtp_ssl` / `starttls`（默认 QQ 邮箱 `smtp.qq.com:465` SSL）。
-**未配置 `MAIL_PASSWORD` 时工作流自动降级为 dry-run**（只打印报告、不发送），因此没有 Secrets 的 fork 也不会失败。
+### （可选）邮件发送
 
-fork 的工作流默认禁用：请在 Actions 页启用 `Run Arxiv Papers Daily`、`Run Update Paper Links Weekly`、`Weekly Paper Report`，并为前两个更新工作流授予 **Read and write permissions**。
+不需要邮件的话可完全忽略本节——GitHub 上的 `weekly-report.yml` 没配 Secrets 时只会 dry-run 打印，不会失败。
+若要邮件，在仓库 **Settings → Secrets and variables → Actions** 添加 `MAIL_USERNAME`、`MAIL_PASSWORD`（授权码）、`MAIL_TO`、`OPENALEX_API_KEY`、可选 `ELSEVIER_API_KEY`，然后在 [config.yaml](config.yaml) 填 `weekly_report.to`。
+
+fork 的工作流默认禁用：请在 Actions 页启用 `Run Arxiv Papers Daily`、`Run Update Paper Links Weekly`、`Weekly Paper Report`，并为前两个授予 **Read and write permissions**（为每日 arXiv 抓取，与邮件无关）。
 
 ## 目录结构
 

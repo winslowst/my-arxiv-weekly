@@ -277,6 +277,119 @@ def render(groups, order, start, end, now, wr, skipped, sources_enabled,
     return subject, body_text, "plain"
 
 
+def render_obsidian(groups, order, start, end, now, wr, skipped, sources_enabled,
+                    arxiv_note=None):
+    """Render an Obsidian-ready Markdown note with YAML frontmatter.
+
+    Only metadata is written (title / authors / journal / DOI / date). The
+    frontmatter marks the note as ``metadata_only`` so it can never be mistaken
+    for a full-text close-reading note in the vault.
+    """
+    all_records = [r for topic in order for r in groups.get(topic, [])]
+    total = len(all_records)
+    with_code = sum(1 for r in all_records if r.get("code_url"))
+    by_source = defaultdict(int)
+    for record in all_records:
+        by_source[record["source"]] += 1
+
+    iso_year, iso_week, _ = start.isocalendar()
+    week_tag = "%d-W%02d" % (iso_year, iso_week)
+    source_names = [SOURCE_LABELS.get(s, s) for s in sources_enabled]
+
+    def y(value):
+        return str(value).replace('"', "'").replace("\n", " ")
+
+    lines = ["---", 'title: "论文周报 %s"' % y(week_tag),
+             'aliases: ["%s 周报"]' % y(week_tag),
+             "tags:", "  - paper-digest", "  - weekly-digest",
+             'created: "%s"' % now.astimezone(TZ).strftime("%Y-%m-%d"),
+             'period_start: "%s"' % start.isoformat(),
+             'period_end: "%s"' % end.isoformat(),
+             'source: "%s"' % y(" + ".join(source_names)),
+             "total: %d" % total,
+             "counts:"]
+    for topic in order:
+        lines.append('  "%s": %d' % (y(topic), len(groups.get(topic, []))))
+    lines += ["evidence_status: metadata_only", "---", "",
+              "# 论文周报 %s（%s ~ %s）" % (week_tag, start, end), "",
+              "> 本笔记由 weekly_report.py 自动生成，只含元数据（题名 / 作者 / 期刊 / DOI / 日期）。",
+              "> `evidence_status: metadata_only`：未逐字核对全文，不可当作精读笔记引用。", "",
+              "## 本期速览", "",
+              "- 汇总范围：%s 00:00 ≤ 论文日期 < %s 00:00（Asia/Shanghai，%d 天，左闭右开）。"
+              % (start, end, wr.get("window_days", 7)),
+              "- 本期共 **%d 篇**；按方向：%s。"
+              % (total, " / ".join("%s %d" % (t, len(groups.get(t, []))) for t in order) or "无"),
+              "- 按来源：%s；含代码链接 %d 篇。"
+              % (" / ".join("%s %d" % (SOURCE_LABELS.get(k, k), v)
+                            for k, v in sorted(by_source.items())) or "无", with_code)]
+    if skipped:
+        lines.append("- 数据说明：%s。" % "；".join(skipped))
+    if arxiv_note:
+        lines.append("- 提示：%s。" % arxiv_note)
+    lines.append("")
+
+    if total == 0:
+        lines += ["本周无新增论文。", ""]
+    for topic in order:
+        items = groups.get(topic, [])
+        if not items:
+            continue
+        lines += ["## %s（%d 篇）" % (topic, len(items)), ""]
+        for idx, record in enumerate(items, 1):
+            lines.append(
+                "%d. **%s**（%s，%s）"
+                % (idx, record["title"], record["date"], record["date_basis"]))
+            detail = ["作者：%s" % record["authors"]]
+            if record.get("journal"):
+                detail.append("期刊：%s" % record["journal"])
+            if record.get("doi"):
+                detail.append("DOI：[%s](https://doi.org/%s)" % (record["doi"], record["doi"]))
+            elif record.get("arxiv_id"):
+                detail.append("arXiv：%s" % record["arxiv_id"])
+            detail.append("链接：%s" % (record["url"] or "—"))
+            if record.get("code_url"):
+                detail.append("代码：%s" % record["code_url"])
+            lines.append("   - " + "｜".join(detail))
+        lines.append("")
+
+    lines += ["## 口径与局限", "",
+              "- arXiv 记录按 `updated` 日期筛选；期刊记录按 `publication_date` / `coverDate` 筛选。",
+              "- 按 DOI → arXiv ID → 标题归一化去重。",
+              "- 只抓取元数据，不取全文；无摘要条目只做标题级描述。",
+              "- 数据源失败会跳过并在「数据说明」中标注，不会中断周报。", ""]
+    return "\n".join(lines) + "\n"
+
+
+def append_obsidian_index(index_path, week_tag, start, end, note_name, total):
+    """Append one row to the weekly-digest index note, creating it if needed."""
+    row = "| %s | %s ~ %s | %d | [[%s]] |" % (week_tag, start, end, total,
+                                             note_name[:-3] if note_name.endswith(".md") else note_name)
+    header = ["# 周报索引", "",
+              "> 由周报脚本维护；每条指向一篇 `metadata_only` 的周报笔记。", "",
+              "| 周次 | 窗口 | 收录 | 笔记 |", "|---|---|---|---|"]
+    if os.path.exists(index_path):
+        with open(index_path, "r", encoding="utf-8") as handle:
+            content = handle.read()
+        if row in content:
+            return index_path
+        lines = content.rstrip().splitlines()
+        insert_at = len(lines)
+        for i, line in enumerate(lines):
+            if line.startswith("| 周次 |"):
+                insert_at = i + 2
+                break
+        lines.insert(insert_at, row)
+        new_content = "\n".join(lines) + "\n"
+    else:
+        new_content = "\n".join(header + [row]) + "\n"
+    folder = os.path.dirname(index_path)
+    if folder:
+        os.makedirs(folder, exist_ok=True)
+    with open(index_path, "w", encoding="utf-8") as handle:
+        handle.write(new_content)
+    return index_path
+
+
 def send_mail(wr, subject, body, subtype):
     """Send via SMTP. Credentials come only from environment variables."""
     user = os.environ.get(wr.get("username_from_env", "MAIL_USERNAME"), "")
@@ -326,10 +439,18 @@ def main():
                          help="print the email body, do not send (default)")
     parser.add_argument("--send", action="store_true",
                          help="really send the email (needs Secrets)")
+    parser.add_argument("--obsidian", action="store_true",
+                         help="write an Obsidian markdown note instead of sending email")
+    parser.add_argument("--vault-dir", default=None,
+                         help="vault directory for --obsidian (e.g. .../城市经济学/周报)")
+    parser.add_argument("--index", default=None,
+                         help="index note path for --obsidian (default: <vault-dir>/周报索引.md)")
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")
     if args.dry_run and args.send:
         parser.error("--dry-run 与 --send 不能同时使用")
+    if args.obsidian and not args.vault_dir:
+        parser.error("--obsidian 需要 --vault-dir 指定 vault 目录")
 
     config = load_config(args.config_path)
     wr = config.get("weekly_report") or {}
@@ -370,6 +491,24 @@ def main():
     subject, body, subtype = render(
         groups, order, start, end, now, wr,
         sorted(set(skipped) | set(notes)), enabled)
+
+    if args.obsidian:
+        iso_year, iso_week, _ = start.isocalendar()
+        week_tag = "%d-W%02d" % (iso_year, iso_week)
+        note_name = "论文周报 %s.md" % week_tag
+        note_path = os.path.join(args.vault_dir, note_name)
+        index_path = args.index or os.path.join(args.vault_dir, "周报索引.md")
+        os.makedirs(args.vault_dir, exist_ok=True)
+        md = render_obsidian(groups, order, start, end, now, wr,
+                             sorted(set(skipped) | set(notes)), enabled)
+        with open(note_path, "w", encoding="utf-8") as handle:
+            handle.write(md)
+        append_obsidian_index(index_path, week_tag, start, end, note_name, total)
+        log.info("Obsidian note written: %s (%d paper(s))", note_path, total)
+        print("Obsidian 笔记：%s（%d 篇）" % (note_path, total))
+        print("索引：%s" % index_path)
+        return 0
+
     if args.send:
         send_mail(wr, subject, body, subtype)
     else:
