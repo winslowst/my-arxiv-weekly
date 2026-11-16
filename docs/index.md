@@ -2,8 +2,25 @@
 layout: default
 ---
 
-# 论文周报 · 城市经济 / 金融学 / AI与经济学 / 企业创新
+<p class="updated"><span class="dot"></span>Updated on 2026.11.16</p>
 
-每天抓取 arXiv 新论文，每周一汇总 arXiv + OpenAlex 期刊元数据推送邮件周报。
+<nav class="toc">
+<a href="#archive" class="archive">Archive</a>
+</nav>
 
-本页由 `Run Arxiv Papers Daily` 工作流每日重绘为按方向分组的论文表格；说明见 [docs/README.md](README.md)。
+<h2 id="archive">Archive</h2>
+
+> All papers, one markdown per year and keyword.
+
+|Year||
+|---||
+
+[contributors-shield]: https://img.shields.io/github/contributors/winslowst/my-arxiv-weekly.svg?style=for-the-badge
+[contributors-url]: https://github.com/winslowst/my-arxiv-weekly/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/winslowst/my-arxiv-weekly.svg?style=for-the-badge
+[forks-url]: https://github.com/winslowst/my-arxiv-weekly/network/members
+[stars-shield]: https://img.shields.io/github/stars/winslowst/my-arxiv-weekly.svg?style=for-the-badge
+[stars-url]: https://github.com/winslowst/my-arxiv-weekly/stargazers
+[issues-shield]: https://img.shields.io/github/issues/winslowst/my-arxiv-weekly.svg?style=for-the-badge
+[issues-url]: https://github.com/winslowst/my-arxiv-weekly/issues
+
