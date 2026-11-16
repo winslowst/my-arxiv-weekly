@@ -1,11 +1,11 @@
 # TODO: add papers by configuration file
 base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
-user_name: "Vincentqyw"
-repo_name: "cv-arxiv-daily"
+user_name: "winslowst"
+repo_name: "my-arxiv-weekly"
 show_authors: True
 show_links: True
 show_badge: True
-max_results: 10
+max_results: 30
 
 publish_readme: True
 publish_gitpage: True
@@ -39,33 +39,103 @@ max_code_search_minutes: 40
 code_checks_path: './docs/code-checks.json'
 
 # keywords to search, optional "categories" limit the arxiv categories (eg. cs.CV)
-# of one keyword; a top-level "categories" would apply to all keywords
+# of one keyword; a top-level "categories" would apply to all keywords.
+# Research directions (as the owner specified): 城市经济、金融学、AI与经济学、企业创新.
+# The filters are English phrases because arXiv indexes almost no Chinese
+# literature. No "categories" on purpose: daily_arxiv.py applies a second
+# primary_category filter which is too narrow for these non-CS topics.
 keywords:
-    "SLAM": 
-        filters: ["SLAM", "Visual Odometry"]
-    "SFM":
-        filters: ["SFM", "Structure from Motion"]
-    "Visual Localization":
-        filters: ["Visual Localization","Camera Localization",
-                  "Camera Re-localisation","Loop Closure Detection",
-                  "visual place recognition","image retrieval"]
-    "Keypoint Detection":
-        filters: ["Keypoint Detection", "Feature Descriptor"]
-    "Image Matching":
-        filters: ["Image Matching", "Keypoint Matching", 
-                  "Line Segment Detection", "Local Feature Matching"]
-    "NeRF":
-        filters: ["NeRF"]
-    "Gaussian Splatting":
-        filters: ["Gaussian Splatting", "3DGS", "2DGS", "4DGS"]
-    "3D Reconstruction":
-        filters: ["VGGT", "DUSt3R", "MASt3R",
-                  "Feed-forward 3D Reconstruction", "Feed-forward Reconstruction",
-                  "Multi-view 3D Reconstruction", "3D Foundation Model"]
-    "World Model":
-        filters: ["World Model", "World Models", "World Simulator"]
-        # "world model" is also a common term in NLP / databases etc., limit the arxiv categories
-        categories: ["cs.CV", "cs.RO", "cs.AI", "cs.LG", "cs.CL"]
-    "VLA and VLN":
-        filters: ["Vision Language Action", "Vision Language Navigation",
-                  "Vision and Language Navigation", "VLN"]
+    "城市经济":
+        filters: ["Urban Economics", "Urban Economy", "Agglomeration Economies",
+                  "Housing Market", "Urban Land Use", "City Size",
+                  "Urban Spatial Structure", "Urban Labor Market"]
+    "金融学":
+        filters: ["Corporate Finance", "Financial Economics", "Asset Pricing",
+                  "Banking", "Financial Markets", "Household Finance"]
+    "AI与经济学":
+        filters: ["Artificial Intelligence Economics", "Machine Learning Economics",
+                  "Large Language Model Economics", "Causal Machine Learning",
+                  "Computational Economics", "Algorithmic Decision Making",
+                  "Machine Learning Econometrics"]
+    "企业创新":
+        filters: ["Firm Innovation", "Corporate Innovation",
+                  "Research and Development Investment", "Patent",
+                  "Technological Innovation", "Entrepreneurship"]
+
+# ---------------------------------------------------------------------------
+# weekly email report (read-only)
+#
+# The weekly job aggregates the arXiv json and journal sources on the fly and
+# sends ONE email. It never writes repo files and never creates a commit.
+# All credentials live in GitHub Actions Secrets (Settings -> Secrets and
+# variables -> Actions): MAIL_USERNAME, MAIL_PASSWORD, optional MAIL_TO,
+# OPENALEX_API_KEY, optional ELSEVIER_API_KEY. Never put a key in this file.
+# ---------------------------------------------------------------------------
+weekly_report:
+    enabled: True
+
+    # fill in your recipient address(es), or set the MAIL_TO secret instead
+    to: []
+    cc: []
+    subject_template: "论文周报 {week}｜{start} ~ {end}"
+    timezone: "Asia/Shanghai"
+    window_days: 7
+    max_papers_per_keyword: 20
+    send_when_empty: True
+    format: "text"                # text | html
+
+    # SMTP: defaults below are for QQ Mail; change to your own provider
+    # (163: smtp.163.com:465 ssl; Outlook: smtp.office365.com:587 starttls)
+    smtp_host: "smtp.qq.com"
+    smtp_port: 465
+    smtp_ssl: True
+    starttls: False
+    from_name: "my-arxiv-weekly"
+    username_from_env: "MAIL_USERNAME"
+    password_from_env: "MAIL_PASSWORD"
+    to_from_env: "MAIL_TO"       # optional secret, overrides `to` when set
+
+    # only the four topic names above are reported, so anything outside the
+    # current research directions never leaks into the email
+    topic_whitelist_from_keywords: True
+    arxiv_json_path: './docs/cv-arxiv-daily.json'
+    repo_readme_url: "https://github.com/winslowst/my-arxiv-weekly/blob/main/README.md"
+
+    sources:
+        arxiv: True
+        openalex: True
+        elsevier: False           # set True only after adding ELSEVIER_API_KEY
+
+    max_results_per_source: 30
+    request_timeout: 20
+
+    # one broad search phrase per topic for the journal sources; make it more
+    # specific once you have seen a few weeks of results
+    journal_queries:
+        "城市经济": "urban economics"
+        "金融学": "corporate finance"
+        "AI与经济学": "machine learning economics"
+        "企业创新": "firm innovation"
+
+    # OpenAlex `search` is a fuzzy full-text search and returns a lot of noise.
+    # Keep a journal record only when its TITLE contains at least one of the
+    # phrases below (case-insensitive). arXiv records are not gated.
+    journal_title_gate:
+        "城市经济": ["urban", "city", "cities", "metropolitan", "housing",
+                    "agglomeration", "land use", "spatial", "real estate",
+                    "neighborhood", "neighbourhood", "commut", "transport",
+                    "regional", "place", "density"]
+        "金融学": ["finance", "financial", "bank", "asset pricing", "stock",
+                  "credit", "capital market", "invest", "monetary", "loan",
+                  "interest rate", "portfolio", "firm value", "liquidity"]
+        "AI与经济学": ["machine learning", "artificial intelligence",
+                     "large language model", "llm", "algorithm", "causal",
+                     "economet", "computational", "neural", "deep learning",
+                     "generative ai", "predict", "data science"]
+        "企业创新": ["innovation", "patent", "r&d", "research and development",
+                  "firm", "entrepreneur", "technolog", "invent", "startup",
+                  "productivity", "knowledge spill"]
+
+    elsevier:
+        view: "BASIC"
+        max_results: 50

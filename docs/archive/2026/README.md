@@ -1,16 +1,1 @@
-## Archive 2026
-> 890 papers
-
-|Keyword|Papers|
-|---|---|
-|[SLAM](./SLAM.md)|201|
-|[SFM](./SFM.md)|124|
-|[Visual Localization](./Visual-Localization.md)|195|
-|[Keypoint Detection](./Keypoint-Detection.md)|43|
-|[Image Matching](./Image-Matching.md)|69|
-|[NeRF](./NeRF.md)|130|
-|[Gaussian Splatting](./Gaussian-Splatting.md)|30|
-|[3D Reconstruction](./3D-Reconstruction.md)|30|
-|[World Model](./World-Model.md)|38|
-|[VLA and VLN](./VLA-and-VLN.md)|30|
-
+_本方向暂无归档。本仓库已清除上游 CV 论文数据，归档由每日任务按新研究方向重新积累。_

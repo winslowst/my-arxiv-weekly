@@ -1,6 +1,6 @@
-title: CV Arxiv Daily
-description: Automatically updated computer vision papers from arXiv, grouped by topic
-repo_url: https://github.com/Vincentqyw/cv-arxiv-daily
+title: My Arxiv Weekly
+description: 每周论文追踪：城市经济、金融学、AI与经济学、企业创新
+repo_url: https://github.com/winslowst/my-arxiv-weekly
 
 # the site uses its own layout (_layouts/default.html), no theme.
 # the archive markdown has no front matter: these github pages default plugins

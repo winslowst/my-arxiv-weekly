@@ -1,11 +1,1 @@
-## Archive 2021
-> 136 papers
-
-|Keyword|Papers|
-|---|---|
-|[SLAM](./SLAM.md)|51|
-|[SFM](./SFM.md)|19|
-|[Visual Localization](./Visual-Localization.md)|14|
-|[Keypoint Detection](./Keypoint-Detection.md)|29|
-|[Image Matching](./Image-Matching.md)|23|
-
+_本方向暂无归档。本仓库已清除上游 CV 论文数据，归档由每日任务按新研究方向重新积累。_

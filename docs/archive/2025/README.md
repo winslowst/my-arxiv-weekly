@@ -1,12 +1,1 @@
-## Archive 2025
-> 4693 papers
-
-|Keyword|Papers|
-|---|---|
-|[SLAM](./SLAM.md)|507|
-|[SFM](./SFM.md)|647|
-|[Visual Localization](./Visual-Localization.md)|1845|
-|[Keypoint Detection](./Keypoint-Detection.md)|262|
-|[Image Matching](./Image-Matching.md)|1066|
-|[NeRF](./NeRF.md)|366|
-
+_本方向暂无归档。本仓库已清除上游 CV 论文数据，归档由每日任务按新研究方向重新积累。_

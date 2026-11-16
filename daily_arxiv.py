@@ -582,8 +582,9 @@ def json_to_md(filename,md_filename,
                 f.write('<a href="#archive" class="archive">Archive</a>\n')
             f.write('</nav>\n\n')
         elif use_title == True:
-            #f.write(("<p align="center"><h1 align="center"><br><ins>CV-ARXIV-DAILY"
-            #         "</ins><br>Automatically Update CV Papers Daily</h1></p>\n"))
+            f.write("# 论文周报 · 城市经济 / 金融学 / AI与经济学 / 企业创新\n\n")
+            f.write("> 每天抓取 arXiv 新论文，每周一汇总 arXiv + OpenAlex 期刊元数据推送一封邮件周报。"
+                    "本仓库由 [cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) fork 改造。\n\n")
             f.write("## Updated on " + DateNow + "\n")
             f.write(f"> Usage instructions: [here]({usage_link}#usage)\n\n")
         else:
@@ -638,21 +639,21 @@ def json_to_md(filename,md_filename,
         if show_badge == True:
             # we don't like long string, break it!
             f.write((f"[contributors-shield]: https://img.shields.io/github/"
-                     f"contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[contributors-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/graphs/contributors\n"))
-            f.write((f"[forks-shield]: https://img.shields.io/github/forks/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[forks-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/network/members\n"))
-            f.write((f"[stars-shield]: https://img.shields.io/github/stars/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[stars-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/stargazers\n"))
-            f.write((f"[issues-shield]: https://img.shields.io/github/issues/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[issues-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/issues\n\n"))
+                     f"contributors/winslowst/my-arxiv-weekly.svg?style=for-the-badge\n"))
+            f.write((f"[contributors-url]: https://github.com/winslowst/"
+                     f"my-arxiv-weekly/graphs/contributors\n"))
+            f.write((f"[forks-shield]: https://img.shields.io/github/forks/winslowst/"
+                     f"my-arxiv-weekly.svg?style=for-the-badge\n"))
+            f.write((f"[forks-url]: https://github.com/winslowst/"
+                     f"my-arxiv-weekly/network/members\n"))
+            f.write((f"[stars-shield]: https://img.shields.io/github/stars/winslowst/"
+                     f"my-arxiv-weekly.svg?style=for-the-badge\n"))
+            f.write((f"[stars-url]: https://github.com/winslowst/"
+                     f"my-arxiv-weekly/stargazers\n"))
+            f.write((f"[issues-shield]: https://img.shields.io/github/issues/winslowst/"
+                     f"my-arxiv-weekly.svg?style=for-the-badge\n"))
+            f.write((f"[issues-url]: https://github.com/winslowst/"
+                     f"my-arxiv-weekly/issues\n\n"))
 
     logging.info(f"{task} finished")
 
