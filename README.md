@@ -2,13 +2,14 @@
 
 > 每天抓取 arXiv 新论文，每周一汇总 arXiv + OpenAlex 期刊元数据推送一封邮件周报。本仓库由 [cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) fork 改造。
 
-## Updated on 2026.11.16
+## Updated on 2026.11.17
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href=#archive>Archive</a></li>
+    <li><a href=#城市经济>城市经济</a></li>
   </ol>
 </details>
 
@@ -16,8 +17,46 @@
 
 > All papers, one markdown per year and keyword.
 
-|Year||
-|---||
+|Year|城市经济|
+|---|---|
+|[2026](./docs/archive/2026/README.md)|[30](./docs/archive/2026/城市经济.md)|
+
+## 城市经济
+
+|Publish Date|Title|Authors|PDF|Code|
+|---|---|---|---|---|
+|**2026-11-13**|**DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery**|Kailai Sun et.al.|[2611.17878](http://arxiv.org/abs/2611.17878)|**[link](https://github.com/kailaisun/DySENSE)**|
+|**2026-11-12**|**Flexible nonlinear spatial autoregressive models under spatial confounding: a gradient boosting approach with closed-form estimation**|Ghislain Geniaux et.al.|[2611.16592](http://arxiv.org/abs/2611.16592)|null|
+|**2026-11-10**|**Obvious Group Manipulations and Top Trading Cycles**|Ryoga Doi et.al.|[2611.13469](http://arxiv.org/abs/2611.13469)|null|
+|**2026-11-02**|**On the difficulty of characterizing top trading cycles with identical houses**|Bettina Klaus et.al.|[2611.03251](http://arxiv.org/abs/2611.03251)|null|
+|**2026-10-27**|**Superlinear cities, finite limits: Three characteristic scales of urban agglomeration**|Somwrita Sarkar et.al.|[2610.37029](http://arxiv.org/abs/2610.37029)|null|
+|**2026-07-29**|**A General Variable Neighborhood Search for Logistic Network Flow Design with Nonlinear Edge Costs and Transshipment Capacities**|Varvara Kovaleva et.al.|[2610.30139](http://arxiv.org/abs/2610.30139)|null|
+|**2026-10-14**|**The Gompertz-Zipf city size distribution and urban allometry**|Sharon Teles et.al.|[2610.19338](http://arxiv.org/abs/2610.19338)|null|
+|**2026-09-26**|**Top Trading Cycles with Indifferences under Matroid Constraints**|Yasushi Kawase et.al.|[2609.32337](http://arxiv.org/abs/2609.32337)|null|
+|**2026-08-27**|**A Tale of Two Cities: The Announcement Effect of Northern Metropolis Plan**|Yi Fan et.al.|[2609.19032](http://arxiv.org/abs/2609.19032)|null|
+|**2026-09-05**|**Housing Price Appreciation, Housing Affordability, and the Spatial Restructuring of Toronto Commuting**|Shawn Berry et.al.|[2609.06308](http://arxiv.org/abs/2609.06308)|null|
+|**2026-08-19**|**Removing Population Size, World Cities Leave on Land a Footprint of Wealth**|Victor Vignolles et.al.|[2608.18792](http://arxiv.org/abs/2608.18792)|null|
+|**2026-08-16**|**Non-obvious Manipulability with Groups in Shapley-Scarf Housing Markets**|Louise Demoor et.al.|[2608.15631](http://arxiv.org/abs/2608.15631)|null|
+|**2026-08-05**|**Workplace dependence in urban economies**|Zsófia Zádor et.al.|[2608.07588](http://arxiv.org/abs/2608.07588)|null|
+|**2026-08-07**|**Learning Long-Term Educational Investment Policies under Residential Sorting**|Honglei Guo et.al.|[2608.07295](http://arxiv.org/abs/2608.07295)|null|
+|**2026-08-02**|**Measuring Product Quality Using Images: The CLIP Q-Score and an Application to Real Estate**|Fabian Slonimczyk et.al.|[2608.01544](http://arxiv.org/abs/2608.01544)|null|
+|**2026-07-21**|**The Price of Quietness: How a Pandemic Affects City Dwellers' Response to Road Traffic Noise**|Yao-pei Wang et.al.|[2607.18677](http://arxiv.org/abs/2607.18677)|null|
+|**2026-07-21**|**Noise Pollution and Household Sustainability: An Economic Approach**|Yi Fan et.al.|[2607.18676](http://arxiv.org/abs/2607.18676)|null|
+|**2026-07-20**|**Social Integration and Housing Behaviours of Immigrants: Evidence from Singapore's Public Housing Market**|Yi Fan et.al.|[2607.17633](http://arxiv.org/abs/2607.17633)|null|
+|**2026-07-13**|**CityBehavEx: A Scalable and Empirically Validated LLM-Assisted Urban Simulation Platform**|Gustavo H. Santos et.al.|[2607.12086](http://arxiv.org/abs/2607.12086)|null|
+|**2026-07-12**|**KRAFT: A Transaction-Level Dataset for Korean Apartment Sales Integrated with Contextual Indicators**|Sejin Myung et.al.|[2607.11961](http://arxiv.org/abs/2607.11961)|null|
+|**2026-09-23**|**Capitalizing Risk, Regulation, and Revised Perceptions: Sequential Shocks in Florida's Condominium Market**|Shaoming Cheng et.al.|[2607.02791](http://arxiv.org/abs/2607.02791)|null|
+|**2026-06-30**|**Feedback dynamics in matching networks drive behavioral differentiation despite overlapping objectives**|Alexandros Gelastopoulos et.al.|[2606.31802](http://arxiv.org/abs/2606.31802)|null|
+|**2026-06-30**|**A Cost-and-Place-Utility Model of the Move-versus-Commute Decision**|Shawn Berry et.al.|[2606.31780](http://arxiv.org/abs/2606.31780)|null|
+|**2026-06-25**|**3D Spatial Pattern Matching**|Nicole R. Schneider et.al.|[2606.26465](http://arxiv.org/abs/2606.26465)|null|
+|**2026-06-19**|**Measuring What Matters: A Quantitative UX Evaluation Framework for AI-Assisted Home Search**|Matilda Nkoom et.al.|[2606.21663](http://arxiv.org/abs/2606.21663)|null|
+|**2026-06-08**|**A Benchmark Generator of Realistic Logistic Transport Networks with Nonlinear Edge Costs and Transshipment Capacities**|Varvara Kovaleva et.al.|[2606.20653](http://arxiv.org/abs/2606.20653)|null|
+|**2026-06-06**|**Opportunity-Normalized Residence-Workplace Matching and the Scale-Sensitive Structure of Urban Commuting**|Mingzhi Xiao et.al.|[2606.08207](http://arxiv.org/abs/2606.08207)|null|
+|**2026-06-01**|**Recovering Direct Price Effects of Environmental Amenities in Housing Markets: Regression and Causal Machine Learning Model Assessment with Empirical Monte Carlo Simulation**|Zhenshan Chen et.al.|[2606.02795](http://arxiv.org/abs/2606.02795)|null|
+|**2026-05-27**|**Population size and centrality effects on NO2 air pollution across and within European cities**|Yufei Wei et.al.|[2605.28672](http://arxiv.org/abs/2605.28672)|null|
+|**2026-05-22**|**Is Capability a Liability? More Capable Language Models Make Worse Forecasts When It Matters Most**|Nick Merrill et.al.|[2605.22672](http://arxiv.org/abs/2605.22672)|null|
+
+<p align=right>(<a href=#updated-on-20261117>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/winslowst/my-arxiv-weekly.svg?style=for-the-badge
 [contributors-url]: https://github.com/winslowst/my-arxiv-weekly/graphs/contributors
