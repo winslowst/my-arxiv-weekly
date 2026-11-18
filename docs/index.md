@@ -2,10 +2,11 @@
 layout: default
 ---
 
-<p class="updated"><span class="dot"></span>Updated on 2026.11.17</p>
+<p class="updated"><span class="dot"></span>Updated on 2026.11.18</p>
 
 <nav class="toc">
 <a href="#城市经济">城市经济</a>
+<a href="#金融学">金融学</a>
 <a href="#archive" class="archive">Archive</a>
 </nav>
 
@@ -13,9 +14,9 @@ layout: default
 
 > All papers, one markdown per year and keyword.
 
-|Year|城市经济|
-|---|---|
-|[2026](./archive/2026/README.md)|[30](./archive/2026/城市经济.md)|
+|Year|城市经济|金融学|
+|---|---|---|
+|[2026](./archive/2026/README.md)|[30](./archive/2026/城市经济.md)|[30](./archive/2026/金融学.md)|
 
 <h2 id="城市经济">城市经济</h2>
 
@@ -51,6 +52,41 @@ layout: default
 |**2026-06-01**|**Recovering Direct Price Effects of Environmental Amenities in Housing Markets: Regression and Causal Machine Learning Model Assessment with Empirical Monte Carlo Simulation**|Zhenshan Chen et.al.|[2606.02795](http://arxiv.org/abs/2606.02795)|<span class="null">—</span>|
 |**2026-05-27**|**Population size and centrality effects on NO2 air pollution across and within European cities**|Yufei Wei et.al.|[2605.28672](http://arxiv.org/abs/2605.28672)|<span class="null">—</span>|
 |**2026-05-22**|**Is Capability a Liability? More Capable Language Models Make Worse Forecasts When It Matters Most**|Nick Merrill et.al.|[2605.22672](http://arxiv.org/abs/2605.22672)|<span class="null">—</span>|
+
+<h2 id="金融学">金融学</h2>
+
+| Publish Date | Title | Authors | PDF | Code |
+|:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-17**|**FrameRouter: Frame Budget Routing for Long-Video Understanding on Video-MME-v2 and Beyond**|Bingjun Luo et.al.|[2611.23055](http://arxiv.org/abs/2611.23055)|**[link](https://github.com/bingjunluo/FrameRouter)**|
+|**2026-11-17**|**Dissecting the GPU Load/Store Unit and Exposing Its Security Risks**|Wenbo Han et.al.|[2611.23022](http://arxiv.org/abs/2611.23022)|<span class="null">—</span>|
+|**2026-11-17**|**Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model**|Jiaqi Wu et.al.|[2611.22998](http://arxiv.org/abs/2611.22998)|<span class="null">—</span>|
+|**2026-11-17**|**DDSL: Iterative Self-Labeling for Financial Market States**|Xianbin Gu et.al.|[2611.22958](http://arxiv.org/abs/2611.22958)|**[link](https://github.com/hogwild/DDSL)**|
+|**2026-11-17**|**Verifying Agents in Rubric-Graded Environments**|Markus Dücker et.al.|[2611.22841](http://arxiv.org/abs/2611.22841)|<span class="null">—</span>|
+|**2026-11-17**|**What Do LLMs Use to Judge Synthesis Recipes? An Experimental Analysis on 240 Solid-State Syntheses**|Derek van Tilborg et.al.|[2611.22623](http://arxiv.org/abs/2611.22623)|<span class="null">—</span>|
+|**2026-11-17**|**EvoSkill-S1: Evolving Reusable Skills with Genetic-Inspired Operators**|Yujun Wang et.al.|[2611.22610](http://arxiv.org/abs/2611.22610)|<span class="null">—</span>|
+|**2026-11-17**|**Reliability-Driven Feature Correction for Hyperspectral and LiDAR Classification**|Lianming Zhang et.al.|[2611.22508](http://arxiv.org/abs/2611.22508)|<span class="null">—</span>|
+|**2026-11-17**|**RehearsalBench: Can AI Predict What Happens When You Change a Company?**|Mika Siddiqui et.al.|[2611.22480](http://arxiv.org/abs/2611.22480)|<span class="null">—</span>|
+|**2026-11-17**|**Dressed in Authority: Practical Black-Box Jailbreaking of MLLMs via Visual Trust Bias**|Weihang Liu et.al.|[2611.22292](http://arxiv.org/abs/2611.22292)|<span class="null">—</span>|
+|**2026-11-17**|**Explaining Realized Returns: Roll's $R^2$ 40 Years Later**|Bryan Kelly et.al.|[2611.22277](http://arxiv.org/abs/2611.22277)|<span class="null">—</span>|
+|**2026-11-17**|**ATLAS-Finance: Benchmarking AI Agents in Realistic Banking Environments**|Elaine Lau et.al.|[2611.22085](http://arxiv.org/abs/2611.22085)|<span class="null">—</span>|
+|**2026-11-16**|**DiagTrace: An Interactive Benchmark for Clinical Decision Making**|Yufan Wang et.al.|[2611.22009](http://arxiv.org/abs/2611.22009)|<span class="null">—</span>|
+|**2026-11-16**|**Surrogate-Assisted Compact-Model Extraction for SKY130 CMOS at 77 K**|Aaron Wang et.al.|[2611.21594](http://arxiv.org/abs/2611.21594)|<span class="null">—</span>|
+|**2026-11-16**|**The Geoengineering Put: Ecological Debt, Termination Risk, and Asset Prices**|Samuel Hartzmark et.al.|[2611.21568](http://arxiv.org/abs/2611.21568)|<span class="null">—</span>|
+|**2026-11-16**|**Reading or Remembering? Measuring Temporal Contamination in Language Models**|Arunkumar V et.al.|[2611.21554](http://arxiv.org/abs/2611.21554)|<span class="null">—</span>|
+|**2026-11-16**|**Portrait Fitness as a Pretext: Probing Implicit Demographic Bias in VLMs**|Alexandre Fournier-Montgieux et.al.|[2611.21403](http://arxiv.org/abs/2611.21403)|<span class="null">—</span>|
+|**2026-11-16**|**Learning What Pairs Miss for Higher-Order Multimodal Alignment**|Kunyu Zhang et.al.|[2611.21372](http://arxiv.org/abs/2611.21372)|<span class="null">—</span>|
+|**2026-11-16**|**Detectability of Eccentric Intermediate Mass-Ratio Inspiral in the Decihertz Band**|Devesh Giri et.al.|[2611.21323](http://arxiv.org/abs/2611.21323)|<span class="null">—</span>|
+|**2026-11-16**|**Strategic Repayment and Latent Fragility in Financial Networks: Why Banks Withhold Payable Liquidity**|Hicham El Kaissi et.al.|[2611.21262](http://arxiv.org/abs/2611.21262)|<span class="null">—</span>|
+|**2026-11-16**|**Inference Equivalence and Quotient Coding**|Zibo Meng et.al.|[2611.21096](http://arxiv.org/abs/2611.21096)|<span class="null">—</span>|
+|**2026-11-16**|**UNITE: Consolidating Embodied VLM Specialists via Shared-Anchor One-Bit Factorization**|Tao Tao et.al.|[2611.20767](http://arxiv.org/abs/2611.20767)|<span class="null">—</span>|
+|**2026-11-16**|**Calibrate Once, Grow the Vocabulary: Candidate-Independent Scores for Conformal Risk Control in Open-Vocabulary Segmentation**|Md Tanveer Hossain Munim et.al.|[2611.20715](http://arxiv.org/abs/2611.20715)|**[link](https://github.com/munim110/open-vocab-crc)**|
+|**2026-11-15**|**PRISM: Primitive-Integrated Separable Modulation with Priority Visual Memory Queue for Compositional Zero-Shot Learning**|Jianhua Wang et.al.|[2611.19828](http://arxiv.org/abs/2611.19828)|<span class="null">—</span>|
+|**2026-11-15**|**Conditional Asset Pricing Transformer**|Hao Fu et.al.|[2611.19783](http://arxiv.org/abs/2611.19783)|<span class="null">—</span>|
+|**2026-11-15**|**When Does an AUROC Comparison Survive a Change in Population Mix?**|Mahtab Movahhedrad et.al.|[2611.19762](http://arxiv.org/abs/2611.19762)|<span class="null">—</span>|
+|**2026-11-14**|**Positivity and Boundedness of Solutions to the Guyon-Lekeufack Volatility Model with General Kernels**|Julien Guyon et.al.|[2611.19604](http://arxiv.org/abs/2611.19604)|<span class="null">—</span>|
+|**2026-11-14**|**A Hierarchical Group Factor Model with Characteristic-Driven Global and Local Factors**|Jun Zhang et.al.|[2611.19412](http://arxiv.org/abs/2611.19412)|<span class="null">—</span>|
+|**2026-11-13**|**How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?**|Carlos Eduardo Martins Relvas et.al.|[2611.18914](http://arxiv.org/abs/2611.18914)|**[link](https://github.com/datarisk-io/fm-vs-gbdt-eval)**|
+|**2026-11-13**|**EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation**|Amir Mohammad Khadem Hosseini et.al.|[2611.18524](http://arxiv.org/abs/2611.18524)|<span class="null">—</span>|
 
 [contributors-shield]: https://img.shields.io/github/contributors/winslowst/my-arxiv-weekly.svg?style=for-the-badge
 [contributors-url]: https://github.com/winslowst/my-arxiv-weekly/graphs/contributors
