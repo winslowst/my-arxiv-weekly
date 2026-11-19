@@ -2,7 +2,7 @@
 
 > 每天抓取 arXiv 新论文，每周一汇总 arXiv + OpenAlex 期刊元数据推送一封邮件周报。本仓库由 [cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) fork 改造。
 
-## Updated on 2026.11.18
+## Updated on 2026.11.19
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -20,7 +20,7 @@
 
 |Year|城市经济|金融学|
 |---|---|---|
-|[2026](./docs/archive/2026/README.md)|[30](./docs/archive/2026/城市经济.md)|[30](./docs/archive/2026/金融学.md)|
+|[2026](./docs/archive/2026/README.md)|[30](./docs/archive/2026/城市经济.md)|[41](./docs/archive/2026/金融学.md)|
 
 ## 城市经济
 
@@ -57,12 +57,23 @@
 |**2026-05-27**|**Population size and centrality effects on NO2 air pollution across and within European cities**|Yufei Wei et.al.|[2605.28672](http://arxiv.org/abs/2605.28672)|null|
 |**2026-05-22**|**Is Capability a Liability? More Capable Language Models Make Worse Forecasts When It Matters Most**|Nick Merrill et.al.|[2605.22672](http://arxiv.org/abs/2605.22672)|null|
 
-<p align=right>(<a href=#updated-on-20261118>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261119>back to top</a>)</p>
 
 ## 金融学
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-18**|**PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration**|Zhaocheng Yu et.al.|[2611.24915](http://arxiv.org/abs/2611.24915)|null|
+|**2026-11-18**|**Efficient search for microlensed gravitational-wave signals with matched filtering and a two-image statistic**|Soumen Roy et.al.|[2611.24895](http://arxiv.org/abs/2611.24895)|null|
+|**2026-11-18**|**Hurst Exponent Estimation with Quantum Wavelets**|Brani Vidakovic et.al.|[2611.24882](http://arxiv.org/abs/2611.24882)|null|
+|**2026-11-18**|**Hierarchical Traffic Engineering for Scalable Software-Defined Satellite Networks**|Mohamed Khiari et.al.|[2611.24777](http://arxiv.org/abs/2611.24777)|null|
+|**2026-11-18**|**Scalable Non-Parametric Bayesian Inference of Free Energy Landscapes and Emission Functions from Observations**|Eliane Briand et.al.|[2611.24678](http://arxiv.org/abs/2611.24678)|null|
+|**2026-11-18**|**Metadata-Driven AI: An Architectural Pattern for Sustainable Data Analysis with LLMs**|Renaud Pawlak et.al.|[2611.24661](http://arxiv.org/abs/2611.24661)|null|
+|**2026-11-18**|**Hardware Acceleration of Vision-Language-Action Models with Weight Precision Rising over the Flow Steps**|Robin Geens et.al.|[2611.24234](http://arxiv.org/abs/2611.24234)|null|
+|**2026-11-18**|**A Capability Framework for Evaluating Agentic AI Platforms in Regulated Enterprises**|Abbas Raza Ali et.al.|[2611.24039](http://arxiv.org/abs/2611.24039)|null|
+|**2026-11-18**|**SWIFT: Slow World, Instant Freshness, and Timely Action for Asynchronous Autonomous Driving**|Jiazhe Wang et.al.|[2611.23813](http://arxiv.org/abs/2611.23813)|null|
+|**2026-11-18**|**GramStatTexNet: Efficient, Interpretable, and Neuro-Inspired Texture Analysis-by-Synthesis**|Vasha DuTell et.al.|[2611.23755](http://arxiv.org/abs/2611.23755)|null|
+|**2026-11-17**|**Can LLMs Understand What They Predict? Evaluating Latent Causal Structure Inference in Financial Markets**|Yixiang Zheng et.al.|[2611.23533](http://arxiv.org/abs/2611.23533)|null|
 |**2026-11-17**|**FrameRouter: Frame Budget Routing for Long-Video Understanding on Video-MME-v2 and Beyond**|Bingjun Luo et.al.|[2611.23055](http://arxiv.org/abs/2611.23055)|**[link](https://github.com/bingjunluo/FrameRouter)**|
 |**2026-11-17**|**Dissecting the GPU Load/Store Unit and Exposing Its Security Risks**|Wenbo Han et.al.|[2611.23022](http://arxiv.org/abs/2611.23022)|null|
 |**2026-11-17**|**Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model**|Jiaqi Wu et.al.|[2611.22998](http://arxiv.org/abs/2611.22998)|null|
@@ -94,7 +105,7 @@
 |**2026-11-13**|**How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?**|Carlos Eduardo Martins Relvas et.al.|[2611.18914](http://arxiv.org/abs/2611.18914)|**[link](https://github.com/datarisk-io/fm-vs-gbdt-eval)**|
 |**2026-11-13**|**EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation**|Amir Mohammad Khadem Hosseini et.al.|[2611.18524](http://arxiv.org/abs/2611.18524)|null|
 
-<p align=right>(<a href=#updated-on-20261118>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261119>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/winslowst/my-arxiv-weekly.svg?style=for-the-badge
 [contributors-url]: https://github.com/winslowst/my-arxiv-weekly/graphs/contributors
