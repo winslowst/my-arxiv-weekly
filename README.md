@@ -2,7 +2,7 @@
 
 > 每天抓取 arXiv 新论文，每周一汇总 arXiv + OpenAlex 期刊元数据推送一封邮件周报。本仓库由 [cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) fork 改造。
 
-## Updated on 2026.11.19
+## Updated on 2026.11.21
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -20,7 +20,7 @@
 
 |Year|城市经济|金融学|
 |---|---|---|
-|[2026](./docs/archive/2026/README.md)|[30](./docs/archive/2026/城市经济.md)|[41](./docs/archive/2026/金融学.md)|
+|[2026](./docs/archive/2026/README.md)|[30](./docs/archive/2026/城市经济.md)|[55](./docs/archive/2026/金融学.md)|
 
 ## 城市经济
 
@@ -57,12 +57,26 @@
 |**2026-05-27**|**Population size and centrality effects on NO2 air pollution across and within European cities**|Yufei Wei et.al.|[2605.28672](http://arxiv.org/abs/2605.28672)|null|
 |**2026-05-22**|**Is Capability a Liability? More Capable Language Models Make Worse Forecasts When It Matters Most**|Nick Merrill et.al.|[2605.22672](http://arxiv.org/abs/2605.22672)|null|
 
-<p align=right>(<a href=#updated-on-20261119>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 ## 金融学
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-19**|**The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models**|Md. Abdullah Al Zami et.al.|[2611.26545](http://arxiv.org/abs/2611.26545)|null|
+|**2026-11-19**|**A Three-Factor Hull-White Scenario Generator for Macro-Financial Stress Forecasting**|Ahmad Qadi et.al.|[2611.26200](http://arxiv.org/abs/2611.26200)|null|
+|**2026-11-19**|**Stablecoin Runs as Safe-Asset Stress Signals: Episode-Level Evidence for Central Bank Surveillance**|Ahmad Qadi et.al.|[2611.26180](http://arxiv.org/abs/2611.26180)|null|
+|**2026-11-19**|**Measuring climate credibility? Talk, emissions, and corporate debt composition**|Georgios Chortareas et.al.|[2611.25951](http://arxiv.org/abs/2611.25951)|null|
+|**2026-11-19**|**Neckpinches in a Positively Curved Market: Ricci Flow with Surgery on the Nikkei-225**|Siddharta Laloux et.al.|[2611.25860](http://arxiv.org/abs/2611.25860)|null|
+|**2026-11-19**|**Interpretable Prototype-Conditioned Adaptation for Weather Forecasting**|Zhixuan Li et.al.|[2611.25848](http://arxiv.org/abs/2611.25848)|null|
+|**2026-11-19**|**Mitigating Row Buffer Contention Through Multiple Row Buffer (MRB) DRAM**|K Chitra et.al.|[2611.25714](http://arxiv.org/abs/2611.25714)|null|
+|**2026-11-19**|**Lightweight Low-Frequency Non-Intrusive Load Monitoring via Karhunen-Loève Feature Distillation and Temporal Convolutional Networks**|Sanka Peeris et.al.|[2611.25678](http://arxiv.org/abs/2611.25678)|null|
+|**2026-11-19**|**Tenon: A Unified Programming Framework for Retargetable PIM Compilation**|Niansong Zhang et.al.|[2611.25636](http://arxiv.org/abs/2611.25636)|null|
+|**2026-11-19**|**FlashX: Scaling Robotic Experience Reuse for Embodied Agents with CBA-Based NAND Flash**|Yuseon Choi et.al.|[2611.25580](http://arxiv.org/abs/2611.25580)|null|
+|**2026-11-19**|**Adaptive Tests of Pricing Restrictions with Observed and Latent Factors**|Anlin Liu et.al.|[2611.25549](http://arxiv.org/abs/2611.25549)|null|
+|**2026-11-19**|**AppSci-Bench: Can LLMs Build AI Agents and Make Them Better?**|Sanjari Srivastava et.al.|[2611.25360](http://arxiv.org/abs/2611.25360)|**[link](https://github.com/sanjari-orb/appsci-bench)**|
+|**2026-11-18**|**Persistent Identity in Person Tracking: Online Enrollment and Registered Recognition**|Ratha Siv et.al.|[2611.25283](http://arxiv.org/abs/2611.25283)|null|
+|**2026-11-18**|**Subsolar neutron star-black hole binaries from collapsars: Gravitational waveform models and detectability in current searches**|Vishal Baibhav et.al.|[2611.25040](http://arxiv.org/abs/2611.25040)|null|
 |**2026-11-18**|**PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration**|Zhaocheng Yu et.al.|[2611.24915](http://arxiv.org/abs/2611.24915)|null|
 |**2026-11-18**|**Efficient search for microlensed gravitational-wave signals with matched filtering and a two-image statistic**|Soumen Roy et.al.|[2611.24895](http://arxiv.org/abs/2611.24895)|null|
 |**2026-11-18**|**Hurst Exponent Estimation with Quantum Wavelets**|Brani Vidakovic et.al.|[2611.24882](http://arxiv.org/abs/2611.24882)|null|
@@ -105,7 +119,7 @@
 |**2026-11-13**|**How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?**|Carlos Eduardo Martins Relvas et.al.|[2611.18914](http://arxiv.org/abs/2611.18914)|**[link](https://github.com/datarisk-io/fm-vs-gbdt-eval)**|
 |**2026-11-13**|**EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation**|Amir Mohammad Khadem Hosseini et.al.|[2611.18524](http://arxiv.org/abs/2611.18524)|null|
 
-<p align=right>(<a href=#updated-on-20261119>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/winslowst/my-arxiv-weekly.svg?style=for-the-badge
 [contributors-url]: https://github.com/winslowst/my-arxiv-weekly/graphs/contributors
