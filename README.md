@@ -2,7 +2,7 @@
 
 > 每天抓取 arXiv 新论文，每周一汇总 arXiv + OpenAlex 期刊元数据推送一封邮件周报。本仓库由 [cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) fork 改造。
 
-## Updated on 2026.11.21
+## Updated on 2026.11.22
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -11,6 +11,8 @@
     <li><a href=#archive>Archive</a></li>
     <li><a href=#城市经济>城市经济</a></li>
     <li><a href=#金融学>金融学</a></li>
+    <li><a href=#ai与经济学>AI与经济学</a></li>
+    <li><a href=#企业创新>企业创新</a></li>
   </ol>
 </details>
 
@@ -18,14 +20,15 @@
 
 > All papers, one markdown per year and keyword.
 
-|Year|城市经济|金融学|
-|---|---|---|
-|[2026](./docs/archive/2026/README.md)|[30](./docs/archive/2026/城市经济.md)|[55](./docs/archive/2026/金融学.md)|
+|Year|城市经济|金融学|AI与经济学|企业创新|
+|---|---|---|---|---|
+|[2026](./docs/archive/2026/README.md)|[31](./docs/archive/2026/城市经济.md)|[55](./docs/archive/2026/金融学.md)|[30](./docs/archive/2026/AI与经济学.md)|[30](./docs/archive/2026/企业创新.md)|
 
 ## 城市经济
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-16**|**A Game of Throngs: How Spotlight Tourism Reshapes Local Economies**|Mafalda Batalha et.al.|[2611.21364](http://arxiv.org/abs/2611.21364)|null|
 |**2026-11-13**|**DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery**|Kailai Sun et.al.|[2611.17878](http://arxiv.org/abs/2611.17878)|**[link](https://github.com/kailaisun/DySENSE)**|
 |**2026-11-12**|**Flexible nonlinear spatial autoregressive models under spatial confounding: a gradient boosting approach with closed-form estimation**|Ghislain Geniaux et.al.|[2611.16592](http://arxiv.org/abs/2611.16592)|null|
 |**2026-11-10**|**Obvious Group Manipulations and Top Trading Cycles**|Ryoga Doi et.al.|[2611.13469](http://arxiv.org/abs/2611.13469)|null|
@@ -57,7 +60,7 @@
 |**2026-05-27**|**Population size and centrality effects on NO2 air pollution across and within European cities**|Yufei Wei et.al.|[2605.28672](http://arxiv.org/abs/2605.28672)|null|
 |**2026-05-22**|**Is Capability a Liability? More Capable Language Models Make Worse Forecasts When It Matters Most**|Nick Merrill et.al.|[2605.22672](http://arxiv.org/abs/2605.22672)|null|
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## 金融学
 
@@ -119,7 +122,81 @@
 |**2026-11-13**|**How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?**|Carlos Eduardo Martins Relvas et.al.|[2611.18914](http://arxiv.org/abs/2611.18914)|**[link](https://github.com/datarisk-io/fm-vs-gbdt-eval)**|
 |**2026-11-13**|**EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation**|Amir Mohammad Khadem Hosseini et.al.|[2611.18524](http://arxiv.org/abs/2611.18524)|null|
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
+
+## AI与经济学
+
+|Publish Date|Title|Authors|PDF|Code|
+|---|---|---|---|---|
+|**2026-10-18**|**Evaluating Semantic Insensitivity in Financial Sentiment Analysis: Implications for Sustainable Financial Decision-Making**|Gabriela Cioboata et.al.|[2611.21653](http://arxiv.org/abs/2611.21653)|null|
+|**2026-11-13**|**Rank Functions of Flag Matroids with Applications to Order-Neutral Submodular Valuations**|Nathaniel Vaduthala et.al.|[2611.18989](http://arxiv.org/abs/2611.18989)|null|
+|**2026-11-13**|**Algorithmic Opacity as a Principal-Agent Problem**|Ignacio Cofone et.al.|[2611.17980](http://arxiv.org/abs/2611.17980)|null|
+|**2026-11-11**|**Winter wheat improves soil carbon sequestration with reduced gains in warmer climates**|Georgios Giannarakis et.al.|[2611.15232](http://arxiv.org/abs/2611.15232)|null|
+|**2026-11-08**|**Causal Machine Learning for Multilevel Studies with Unmeasured Cluster-Level Covariates via Variational Autoencoders**|Youmi Suk et.al.|[2611.11483](http://arxiv.org/abs/2611.11483)|null|
+|**2026-11-06**|**Uniqueness-Aware Feature Engineering for Representing Humans in Algorithmic Decision Making**|Theresa Elstner et.al.|[2611.09403](http://arxiv.org/abs/2611.09403)|null|
+|**2026-11-03**|**Palimpsestic Accountability in the US Federal AI Inventories**|Dipto Das et.al.|[2611.04153](http://arxiv.org/abs/2611.04153)|null|
+|**2026-10-25**|**Resolving the Mobility-Equity-Emissions Trilemma: A Causal Machine Learning Framework for Dynamic Tolling Policy**|Christian Mulomba Mukendi et.al.|[2610.33994](http://arxiv.org/abs/2610.33994)|null|
+|**2026-10-12**|**4Cast Lab: Open-Source App for Machine Learning & Statistical Analysis**|Periklis Gogas et.al.|[2610.16800](http://arxiv.org/abs/2610.16800)|null|
+|**2026-10-10**|**Algorithmic Fairness Over Time: Advances & Prospects**|Miriam Rateike et.al.|[2610.15015](http://arxiv.org/abs/2610.15015)|null|
+|**2026-10-07**|**A Distributed Accelerated Preconditioned ADMM for Solving Quadratically Regularized Optimal Transport on Bipartite Graphs**|Jiayi Zhu et.al.|[2610.09512](http://arxiv.org/abs/2610.09512)|null|
+|**2026-09-24**|**An End-to-End Pipeline for Causal ML with Continuous Treatments: An Application to Financial Decision Making**|Javier Moral Hernández et.al.|[2609.30396](http://arxiv.org/abs/2609.30396)|**[link](https://github.com/javiermoralh/causal-pipeline)**|
+|**2026-09-21**|**Climate Variability Modulates the Impact of Price Spikes on Food Insecurity**|Jordi Cerdà-Bautista et.al.|[2609.24394](http://arxiv.org/abs/2609.24394)|null|
+|**2026-09-16**|**F-DACE: Fuzzy Disagreement-Aware Causal Evidence Fusion for Abstention-Safe Conversational Retail Decision Support**|Sourish Dey et.al.|[2609.18238](http://arxiv.org/abs/2609.18238)|null|
+|**2026-09-10**|**Conceptualization and experimentation of asset market with price manipulation**|Pau Fonseca i Casas et.al.|[2609.13304](http://arxiv.org/abs/2609.13304)|null|
+|**2026-09-03**|**A Computationally Feasible Framework for Causal Probabilistic Explanation**|Rafal Urbaniak et.al.|[2609.04177](http://arxiv.org/abs/2609.04177)|null|
+|**2026-09-03**|**Bridging Formal and Perceived Fairness: Development of an Interdisciplinary Framework in Algorithmic Decision-Making**|Maike Lindermayr et.al.|[2609.03853](http://arxiv.org/abs/2609.03853)|null|
+|**2026-08-09**|**Does a Toehold Make a Bidder Bolder? Preemption and Multiplicity in Multi-Round Takeover Auctions**|Zain Naboulsi et.al.|[2608.08407](http://arxiv.org/abs/2608.08407)|**[link](https://github.com/zainnab-sparq/sequential-takeover-auctions)**|
+|**2026-08-04**|**Estimating Heterogeneity in Travel Mode Choice Shifts with Causal Forests**|Rishabh Singh Chauhan et.al.|[2608.04208](http://arxiv.org/abs/2608.04208)|null|
+|**2026-08-02**|**The Overstated Cost of AI Fairness in Criminal Justice**|Ignacio Cofone et.al.|[2608.01299](http://arxiv.org/abs/2608.01299)|null|
+|**2026-07-28**|**A Structuration Approach to Theorizing Cybersecurity Practice: The STARC Model**|Md Aktaruzzaman et.al.|[2607.25734](http://arxiv.org/abs/2607.25734)|null|
+|**2026-07-27**|**Myopia Prevention and Control 3.0: Artificial Intelligence--Driven Risk Stratification, Proactive Monitoring, and Personalized Intervention**|Tieniu Wang et.al.|[2607.24187](http://arxiv.org/abs/2607.24187)|null|
+|**2026-07-14**|**Solution of the Hempel's statistical ambiguity problem and Causal AI**|Evgenii Vityaev et.al.|[2607.12826](http://arxiv.org/abs/2607.12826)|null|
+|**2026-07-15**|**Removable Defects: The Economics and Limits of Deliberate Deficiency**|Cheng Qian et.al.|[2607.11983](http://arxiv.org/abs/2607.11983)|null|
+|**2026-07-26**|**Beyond travel mode: urban context shapes active mobility's mental health effects over time**|Shujuan Chen et.al.|[2607.04520](http://arxiv.org/abs/2607.04520)|null|
+|**2026-07-02**|**Predicting Heterogeneous Treatment Effects Of Building Energy Saving Retrofits Using Causal Machine Learning**|Kevin Zalipski et.al.|[2607.01891](http://arxiv.org/abs/2607.01891)|null|
+|**2026-06-30**|**Estimating Supply Incrementality in Two-sided Marketplaces: A Causal Machine Learning Approach**|Yufei Wu et.al.|[2606.30999](http://arxiv.org/abs/2606.30999)|null|
+|**2026-07-04**|**Cross-Fitted Survey-Weighted TMLE with Design-Based Variance for Causal Machine Learning**|M. Ehsan Karim et.al.|[2606.30918](http://arxiv.org/abs/2606.30918)|null|
+|**2026-06-28**|**Persona-Trained Monte Carlo: Estimating Market-Outcome Distributions via Swarms of Persona-Conditioned Neural Policy Bots in a Limit Order Book**|Salavat Ishbulatov et.al.|[2606.29556](http://arxiv.org/abs/2606.29556)|null|
+|**2026-06-23**|**A Step Towards Inherently Interpretable Causal Machine Learning Models For Decision Support**|David Zapata Gonzalez et.al.|[2606.24348](http://arxiv.org/abs/2606.24348)|null|
+
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
+
+## 企业创新
+
+|Publish Date|Title|Authors|PDF|Code|
+|---|---|---|---|---|
+|**2026-11-18**|**Chemistry by Design (CbyD): A Machine-Readable Dataset of Expert-Curated Total Synthesis Routes**|Ryan E. Williams et.al.|[2611.24996](http://arxiv.org/abs/2611.24996)|null|
+|**2026-11-19**|**Unified Law for Visual Tasks (The Four Laws of Computer Vision)**|Sen Fang et.al.|[2611.24917](http://arxiv.org/abs/2611.24917)|**[link](https://github.com/World-Snapshot/WSMs)**|
+|**2026-11-17**|**LMLineage: Content Lineage and Context Governance for LLM Agents**|Wei Hou et.al.|[2611.22511](http://arxiv.org/abs/2611.22511)|null|
+|**2026-11-17**|**Teaching Language Models to Narrow Boolean Patent Searches from Search Feedback**|Seiya Kawano et.al.|[2611.22270](http://arxiv.org/abs/2611.22270)|null|
+|**2026-11-16**|**Different Stories: European Astronomy as a Tool of Colonization in the Americas and Hawai'i**|Gregg A. Wade et.al.|[2611.21687](http://arxiv.org/abs/2611.21687)|null|
+|**2026-11-18**|**Randomization protects the average, not the trial: chance covariate imbalance and a calibration of balance $P$ values at the design stage**|William J. Dwyer et.al.|[2611.21425](http://arxiv.org/abs/2611.21425)|null|
+|**2026-11-16**|**Do Embedding-Map Distances Guide LLM Ideation? Four Tests Against What Came Next**|Javier Aguilar Martín et.al.|[2611.21408](http://arxiv.org/abs/2611.21408)|**[link](https://github.com/JaviMaligno/latent-gap-ideas)**|
+|**2026-11-12**|**Similar but Not Redundant: Embedding-Gated Refinement for High-Granularity Topic Models**|Daniel Denley et.al.|[2611.17030](http://arxiv.org/abs/2611.17030)|null|
+|**2026-11-12**|**SignalAudit-QD: A Reproducible Audit Resource for External Signals in AI-Query Forecasting**|Amir Rafe et.al.|[2611.16947](http://arxiv.org/abs/2611.16947)|null|
+|**2026-11-11**|**Human Capital in Context: What Employment Survival Reveals About Worker-Firm Match**|Jung Ho Choi et.al.|[2611.16058](http://arxiv.org/abs/2611.16058)|null|
+|**2026-11-09**|**A Large-Scale Dataset for Cross-Lingual Multi-Jurisdiction Patent Drafting from Patent Cooperation Treaty Applications**|Trung Phuong Le et.al.|[2611.11891](http://arxiv.org/abs/2611.11891)|null|
+|**2026-11-08**|**Comments on: "Optimized thermal control of a dual-wavelength-resonant nonlinear cavity"**|Roman Schnabel et.al.|[2611.11590](http://arxiv.org/abs/2611.11590)|null|
+|**2026-11-06**|**Roadmap on Nanoscale Superconductivity for Quantum Technologies**|Oleksandr Dobrovolskiy et.al.|[2611.10076](http://arxiv.org/abs/2611.10076)|null|
+|**2026-11-06**|**Large Language Model Consensus and Corpus-Adaptive Topic Modeling for Classifying and Mapping Patent Innovation**|Sercan Ozcan et.al.|[2611.09194](http://arxiv.org/abs/2611.09194)|null|
+|**2026-10-28**|**Steerable Single-step Retrosynthesis with Electron-pushing Discrete Flow Matching and Feynman-Kac Steering**|Octavian Susanu et.al.|[2611.03696](http://arxiv.org/abs/2611.03696)|null|
+|**2026-11-01**|**Improving Entrepreneurial Skills by Practicing with AI**|Amir Globerson et.al.|[2611.02016](http://arxiv.org/abs/2611.02016)|null|
+|**2026-10-29**|**XLaw-JP-27B: A Lightweight Open Model Specialized for Japanese Law**|Andrew Shin et.al.|[2610.39227](http://arxiv.org/abs/2610.39227)|null|
+|**2026-10-28**|**The Indian Financial Automated Advice Bias (IFAAB) Dataset : Auditing Socioeconomic and Demographic Disparities in LLM-Generated Financial Advice in India**|Kriti Mahajan et.al.|[2610.38239](http://arxiv.org/abs/2610.38239)|null|
+|**2026-11-12**|**Doubly robust estimation of direct and spillover effects using multiple pre-treatment periods**|Martin Huber et.al.|[2610.37049](http://arxiv.org/abs/2610.37049)|null|
+|**2026-11-16**|**PatentAgentBench: Benchmarking LLM Agents with Professional Patent Task Suites**|Yijie Hu et.al.|[2610.35031](http://arxiv.org/abs/2610.35031)|null|
+|**2026-10-24**|**Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination**|Qiyao Wang et.al.|[2610.33503](http://arxiv.org/abs/2610.33503)|**[link](https://github.com/AIforIP/PatEx-Gym)**|
+|**2026-10-24**|**Cross-Bond Panel Learning for Next-Day Price Forecasting of Chinese Convertible Bonds: A Reality Check**|Derun Zhong et.al.|[2610.33453](http://arxiv.org/abs/2610.33453)|null|
+|**2026-10-22**|**DagFlow AI: Agentic Synthetic Data Generation for Personalized Statistics Learning**|David Arthur et.al.|[2610.30580](http://arxiv.org/abs/2610.30580)|null|
+|**2026-10-24**|**FormBench: A Benchmark for Fine-Grained Retrieval in Formulation Patents**|Vineeth Venugopal et.al.|[2610.30175](http://arxiv.org/abs/2610.30175)|null|
+|**2026-10-21**|**X-Embedding: Two-Stage Training for Multilingual Patent Prior-Art Retrieval**|Wentao Wu et.al.|[2610.29521](http://arxiv.org/abs/2610.29521)|null|
+|**2026-10-20**|**Restraint-Induced Loss in Software-Intensive Enterprises: Large A Verified Technical Economic Impact Model of Operational Downtime and Delayed Commercialization, with Tail-Risk Security Sizing and Three Enterprise Case Studies**|Mahdi Eslamimehr et.al.|[2610.27560](http://arxiv.org/abs/2610.27560)|null|
+|**2026-10-16**|**How exposed is work to robotics? Occupational, industry, and geographic measures**|Sebastian Sartor et.al.|[2610.24267](http://arxiv.org/abs/2610.24267)|null|
+|**2026-10-14**|**Void-Free Through-Glass Vias for Multilayer Surface-Electrode Ion Traps**|Eike Iseke et.al.|[2610.19736](http://arxiv.org/abs/2610.19736)|null|
+|**2026-10-14**|**Synthetic reaction data from transformation rules for graph-to-sequence pretraining in biodegradation pathway prediction**|Irsyaad Rijwan et.al.|[2610.19640](http://arxiv.org/abs/2610.19640)|null|
+|**2026-10-13**|**Interpreting Paper-to-Patent Citations in AI-Related PMC Articles**|Haowei Li et.al.|[2610.18109](http://arxiv.org/abs/2610.18109)|null|
+
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/winslowst/my-arxiv-weekly.svg?style=for-the-badge
 [contributors-url]: https://github.com/winslowst/my-arxiv-weekly/graphs/contributors
