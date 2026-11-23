@@ -2,7 +2,7 @@
 
 > 每天抓取 arXiv 新论文，每周一汇总 arXiv + OpenAlex 期刊元数据推送一封邮件周报。本仓库由 [cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) fork 改造。
 
-## Updated on 2026.11.22
+## Updated on 2026.11.23
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -22,7 +22,7 @@
 
 |Year|城市经济|金融学|AI与经济学|企业创新|
 |---|---|---|---|---|
-|[2026](./docs/archive/2026/README.md)|[31](./docs/archive/2026/城市经济.md)|[55](./docs/archive/2026/金融学.md)|[30](./docs/archive/2026/AI与经济学.md)|[30](./docs/archive/2026/企业创新.md)|
+|[2026](./docs/archive/2026/README.md)|[31](./docs/archive/2026/城市经济.md)|[69](./docs/archive/2026/金融学.md)|[30](./docs/archive/2026/AI与经济学.md)|[30](./docs/archive/2026/企业创新.md)|
 
 ## 城市经济
 
@@ -56,16 +56,30 @@
 |**2026-06-19**|**Measuring What Matters: A Quantitative UX Evaluation Framework for AI-Assisted Home Search**|Matilda Nkoom et.al.|[2606.21663](http://arxiv.org/abs/2606.21663)|null|
 |**2026-06-08**|**A Benchmark Generator of Realistic Logistic Transport Networks with Nonlinear Edge Costs and Transshipment Capacities**|Varvara Kovaleva et.al.|[2606.20653](http://arxiv.org/abs/2606.20653)|null|
 |**2026-06-06**|**Opportunity-Normalized Residence-Workplace Matching and the Scale-Sensitive Structure of Urban Commuting**|Mingzhi Xiao et.al.|[2606.08207](http://arxiv.org/abs/2606.08207)|null|
-|**2026-06-01**|**Recovering Direct Price Effects of Environmental Amenities in Housing Markets: Regression and Causal Machine Learning Model Assessment with Empirical Monte Carlo Simulation**|Zhenshan Chen et.al.|[2606.02795](http://arxiv.org/abs/2606.02795)|null|
+|**2026-11-20**|**Recovering Direct Price Effects of Environmental Amenities in Housing Markets: Regression and Causal Machine Learning Model Assessment with Empirical Monte Carlo Simulation**|Zhenshan Chen et.al.|[2606.02795](http://arxiv.org/abs/2606.02795)|null|
 |**2026-05-27**|**Population size and centrality effects on NO2 air pollution across and within European cities**|Yufei Wei et.al.|[2605.28672](http://arxiv.org/abs/2605.28672)|null|
 |**2026-05-22**|**Is Capability a Liability? More Capable Language Models Make Worse Forecasts When It Matters Most**|Nick Merrill et.al.|[2605.22672](http://arxiv.org/abs/2605.22672)|null|
 
-<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261123>back to top</a>)</p>
 
 ## 金融学
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-20**|**The Fiscal and Economic Implications of Green Mandates: a Boltzmann Approach to Public Governance**|Katerina Savvaidou et.al.|[2611.27923](http://arxiv.org/abs/2611.27923)|null|
+|**2026-11-20**|**Refrain: Learning Multi-Shot Consistency from Inconsistent References for A $^2$ O Video Generation**|Hongru Yan et.al.|[2611.27806](http://arxiv.org/abs/2611.27806)|null|
+|**2026-11-20**|**PGS-PCQA: Perceptually Gated Synthetic Supervision for No-Reference Point Cloud Quality Assessment**|Qinyuan Fan et.al.|[2611.27512](http://arxiv.org/abs/2611.27512)|**[link](https://github.com/Fan-QY/PGS-PCQA)**|
+|**2026-11-20**|**Accountable AI Delegation in Banking: Identity, Commitment Controls, Decision Evidence and Recovery**|Walter Kurz et.al.|[2611.27505](http://arxiv.org/abs/2611.27505)|null|
+|**2026-11-20**|**Neurodegenerative Differential Diagnosis with Knowledge-enhanced Structural Reasoning**|Mingxuan Wang et.al.|[2611.27427](http://arxiv.org/abs/2611.27427)|null|
+|**2026-11-20**|**AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control**|Qianxing Li et.al.|[2611.27397](http://arxiv.org/abs/2611.27397)|null|
+|**2026-11-20**|**WePM: Hierarchical Conflict Reconciliation for Unified MLLMs**|Zhiqiang Yuan et.al.|[2611.27365](http://arxiv.org/abs/2611.27365)|**[link](https://github.com/Tencent/WePocketModel)**|
+|**2026-11-20**|**Crafting the Difference, Grounding the Evidence: Discriminative Concept Learning for Zero-Shot Skeleton Action Recognition**|Siyu Zhu et.al.|[2611.27135](http://arxiv.org/abs/2611.27135)|null|
+|**2026-11-20**|**Separating Automation Gains from Agent Contributions in AI-Assisted Model Validation**|M. Ahmadi Achachlouei et.al.|[2611.27094](http://arxiv.org/abs/2611.27094)|null|
+|**2026-11-20**|**Auditing and Adapting kNNGuard for Long-Context Prompts**|Niccolò Ronchetti et.al.|[2611.27084](http://arxiv.org/abs/2611.27084)|null|
+|**2026-11-20**|**Early Assessment Submission and Subsequent Course Outcome: A Day-30 Landmark Observational Analysis of OULAD with Explicit Weighting Diagnostics**|Devis Wawan Saputra et.al.|[2611.27005](http://arxiv.org/abs/2611.27005)|null|
+|**2026-11-20**|**JevRisk: Zero-Shot Financial Risk Assessment with a Language Decision Model**|Yaodong Yang et.al.|[2611.26999](http://arxiv.org/abs/2611.26999)|null|
+|**2026-11-19**|**Know Your Context Bank: Repairing Inconsistency and Measuring Generalization in Context-Aware Text-to-SQL**|Hailong Li et.al.|[2611.26775](http://arxiv.org/abs/2611.26775)|null|
+|**2026-11-19**|**Held-to-Maturity Accounting: Hidden Losses and Systemic Fragility**|Dongxu Li et.al.|[2611.26700](http://arxiv.org/abs/2611.26700)|null|
 |**2026-11-19**|**The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models**|Md. Abdullah Al Zami et.al.|[2611.26545](http://arxiv.org/abs/2611.26545)|null|
 |**2026-11-19**|**A Three-Factor Hull-White Scenario Generator for Macro-Financial Stress Forecasting**|Ahmad Qadi et.al.|[2611.26200](http://arxiv.org/abs/2611.26200)|null|
 |**2026-11-19**|**Stablecoin Runs as Safe-Asset Stress Signals: Episode-Level Evidence for Central Bank Surveillance**|Ahmad Qadi et.al.|[2611.26180](http://arxiv.org/abs/2611.26180)|null|
@@ -122,7 +136,7 @@
 |**2026-11-13**|**How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?**|Carlos Eduardo Martins Relvas et.al.|[2611.18914](http://arxiv.org/abs/2611.18914)|**[link](https://github.com/datarisk-io/fm-vs-gbdt-eval)**|
 |**2026-11-13**|**EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation**|Amir Mohammad Khadem Hosseini et.al.|[2611.18524](http://arxiv.org/abs/2611.18524)|null|
 
-<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261123>back to top</a>)</p>
 
 ## AI与经济学
 
@@ -159,7 +173,7 @@
 |**2026-06-28**|**Persona-Trained Monte Carlo: Estimating Market-Outcome Distributions via Swarms of Persona-Conditioned Neural Policy Bots in a Limit Order Book**|Salavat Ishbulatov et.al.|[2606.29556](http://arxiv.org/abs/2606.29556)|null|
 |**2026-06-23**|**A Step Towards Inherently Interpretable Causal Machine Learning Models For Decision Support**|David Zapata Gonzalez et.al.|[2606.24348](http://arxiv.org/abs/2606.24348)|null|
 
-<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261123>back to top</a>)</p>
 
 ## 企业创新
 
@@ -196,7 +210,7 @@
 |**2026-10-14**|**Synthetic reaction data from transformation rules for graph-to-sequence pretraining in biodegradation pathway prediction**|Irsyaad Rijwan et.al.|[2610.19640](http://arxiv.org/abs/2610.19640)|null|
 |**2026-10-13**|**Interpreting Paper-to-Patent Citations in AI-Related PMC Articles**|Haowei Li et.al.|[2610.18109](http://arxiv.org/abs/2610.18109)|null|
 
-<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261123>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/winslowst/my-arxiv-weekly.svg?style=for-the-badge
 [contributors-url]: https://github.com/winslowst/my-arxiv-weekly/graphs/contributors

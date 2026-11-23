@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p class="updated"><span class="dot"></span>Updated on 2026.11.22</p>
+<p class="updated"><span class="dot"></span>Updated on 2026.11.23</p>
 
 <nav class="toc">
 <a href="#城市经济">城市经济</a>
@@ -18,7 +18,7 @@ layout: default
 
 |Year|城市经济|金融学|AI与经济学|企业创新|
 |---|---|---|---|---|
-|[2026](./archive/2026/README.md)|[31](./archive/2026/城市经济.md)|[55](./archive/2026/金融学.md)|[30](./archive/2026/AI与经济学.md)|[30](./archive/2026/企业创新.md)|
+|[2026](./archive/2026/README.md)|[31](./archive/2026/城市经济.md)|[69](./archive/2026/金融学.md)|[30](./archive/2026/AI与经济学.md)|[30](./archive/2026/企业创新.md)|
 
 <h2 id="城市经济">城市经济</h2>
 
@@ -52,7 +52,7 @@ layout: default
 |**2026-06-19**|**Measuring What Matters: A Quantitative UX Evaluation Framework for AI-Assisted Home Search**|Matilda Nkoom et.al.|[2606.21663](http://arxiv.org/abs/2606.21663)|<span class="null">—</span>|
 |**2026-06-08**|**A Benchmark Generator of Realistic Logistic Transport Networks with Nonlinear Edge Costs and Transshipment Capacities**|Varvara Kovaleva et.al.|[2606.20653](http://arxiv.org/abs/2606.20653)|<span class="null">—</span>|
 |**2026-06-06**|**Opportunity-Normalized Residence-Workplace Matching and the Scale-Sensitive Structure of Urban Commuting**|Mingzhi Xiao et.al.|[2606.08207](http://arxiv.org/abs/2606.08207)|<span class="null">—</span>|
-|**2026-06-01**|**Recovering Direct Price Effects of Environmental Amenities in Housing Markets: Regression and Causal Machine Learning Model Assessment with Empirical Monte Carlo Simulation**|Zhenshan Chen et.al.|[2606.02795](http://arxiv.org/abs/2606.02795)|<span class="null">—</span>|
+|**2026-11-20**|**Recovering Direct Price Effects of Environmental Amenities in Housing Markets: Regression and Causal Machine Learning Model Assessment with Empirical Monte Carlo Simulation**|Zhenshan Chen et.al.|[2606.02795](http://arxiv.org/abs/2606.02795)|<span class="null">—</span>|
 |**2026-05-27**|**Population size and centrality effects on NO2 air pollution across and within European cities**|Yufei Wei et.al.|[2605.28672](http://arxiv.org/abs/2605.28672)|<span class="null">—</span>|
 |**2026-05-22**|**Is Capability a Liability? More Capable Language Models Make Worse Forecasts When It Matters Most**|Nick Merrill et.al.|[2605.22672](http://arxiv.org/abs/2605.22672)|<span class="null">—</span>|
 
@@ -60,6 +60,20 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-20**|**The Fiscal and Economic Implications of Green Mandates: a Boltzmann Approach to Public Governance**|Katerina Savvaidou et.al.|[2611.27923](http://arxiv.org/abs/2611.27923)|<span class="null">—</span>|
+|**2026-11-20**|**Refrain: Learning Multi-Shot Consistency from Inconsistent References for A $^2$ O Video Generation**|Hongru Yan et.al.|[2611.27806](http://arxiv.org/abs/2611.27806)|<span class="null">—</span>|
+|**2026-11-20**|**PGS-PCQA: Perceptually Gated Synthetic Supervision for No-Reference Point Cloud Quality Assessment**|Qinyuan Fan et.al.|[2611.27512](http://arxiv.org/abs/2611.27512)|**[link](https://github.com/Fan-QY/PGS-PCQA)**|
+|**2026-11-20**|**Accountable AI Delegation in Banking: Identity, Commitment Controls, Decision Evidence and Recovery**|Walter Kurz et.al.|[2611.27505](http://arxiv.org/abs/2611.27505)|<span class="null">—</span>|
+|**2026-11-20**|**Neurodegenerative Differential Diagnosis with Knowledge-enhanced Structural Reasoning**|Mingxuan Wang et.al.|[2611.27427](http://arxiv.org/abs/2611.27427)|<span class="null">—</span>|
+|**2026-11-20**|**AnyBodyCodec: A Shared Native Interface for Body-Model Conversion, Extension, and Humanoid Control**|Qianxing Li et.al.|[2611.27397](http://arxiv.org/abs/2611.27397)|<span class="null">—</span>|
+|**2026-11-20**|**WePM: Hierarchical Conflict Reconciliation for Unified MLLMs**|Zhiqiang Yuan et.al.|[2611.27365](http://arxiv.org/abs/2611.27365)|**[link](https://github.com/Tencent/WePocketModel)**|
+|**2026-11-20**|**Crafting the Difference, Grounding the Evidence: Discriminative Concept Learning for Zero-Shot Skeleton Action Recognition**|Siyu Zhu et.al.|[2611.27135](http://arxiv.org/abs/2611.27135)|<span class="null">—</span>|
+|**2026-11-20**|**Separating Automation Gains from Agent Contributions in AI-Assisted Model Validation**|M. Ahmadi Achachlouei et.al.|[2611.27094](http://arxiv.org/abs/2611.27094)|<span class="null">—</span>|
+|**2026-11-20**|**Auditing and Adapting kNNGuard for Long-Context Prompts**|Niccolò Ronchetti et.al.|[2611.27084](http://arxiv.org/abs/2611.27084)|<span class="null">—</span>|
+|**2026-11-20**|**Early Assessment Submission and Subsequent Course Outcome: A Day-30 Landmark Observational Analysis of OULAD with Explicit Weighting Diagnostics**|Devis Wawan Saputra et.al.|[2611.27005](http://arxiv.org/abs/2611.27005)|<span class="null">—</span>|
+|**2026-11-20**|**JevRisk: Zero-Shot Financial Risk Assessment with a Language Decision Model**|Yaodong Yang et.al.|[2611.26999](http://arxiv.org/abs/2611.26999)|<span class="null">—</span>|
+|**2026-11-19**|**Know Your Context Bank: Repairing Inconsistency and Measuring Generalization in Context-Aware Text-to-SQL**|Hailong Li et.al.|[2611.26775](http://arxiv.org/abs/2611.26775)|<span class="null">—</span>|
+|**2026-11-19**|**Held-to-Maturity Accounting: Hidden Losses and Systemic Fragility**|Dongxu Li et.al.|[2611.26700](http://arxiv.org/abs/2611.26700)|<span class="null">—</span>|
 |**2026-11-19**|**The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models**|Md. Abdullah Al Zami et.al.|[2611.26545](http://arxiv.org/abs/2611.26545)|<span class="null">—</span>|
 |**2026-11-19**|**A Three-Factor Hull-White Scenario Generator for Macro-Financial Stress Forecasting**|Ahmad Qadi et.al.|[2611.26200](http://arxiv.org/abs/2611.26200)|<span class="null">—</span>|
 |**2026-11-19**|**Stablecoin Runs as Safe-Asset Stress Signals: Episode-Level Evidence for Central Bank Surveillance**|Ahmad Qadi et.al.|[2611.26180](http://arxiv.org/abs/2611.26180)|<span class="null">—</span>|
