@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p class="updated"><span class="dot"></span>Updated on 2026.11.25</p>
+<p class="updated"><span class="dot"></span>Updated on 2026.11.26</p>
 
 <nav class="toc">
 <a href="#城市经济">城市经济</a>
@@ -18,12 +18,13 @@ layout: default
 
 |Year|城市经济|金融学|AI与经济学|企业创新|
 |---|---|---|---|---|
-|[2026](./archive/2026/README.md)|[31](./archive/2026/城市经济.md)|[97](./archive/2026/金融学.md)|[31](./archive/2026/AI与经济学.md)|[31](./archive/2026/企业创新.md)|
+|[2026](./archive/2026/README.md)|[32](./archive/2026/城市经济.md)|[105](./archive/2026/金融学.md)|[32](./archive/2026/AI与经济学.md)|[32](./archive/2026/企业创新.md)|
 
 <h2 id="城市经济">城市经济</h2>
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-25**|**Beyond Gentrification: quantifying the economic, social and cultural dimensions of neighbourhood change through housing markets and digital traces**|Alexis Comber et.al.|[2611.34214](http://arxiv.org/abs/2611.34214)|<span class="null">—</span>|
 |**2026-11-16**|**A Game of Throngs: How Spotlight Tourism Reshapes Local Economies**|Mafalda Batalha et.al.|[2611.21364](http://arxiv.org/abs/2611.21364)|<span class="null">—</span>|
 |**2026-11-13**|**DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery**|Kailai Sun et.al.|[2611.17878](http://arxiv.org/abs/2611.17878)|**[link](https://github.com/kailaisun/DySENSE)**|
 |**2026-11-12**|**Flexible nonlinear spatial autoregressive models under spatial confounding: a gradient boosting approach with closed-form estimation**|Ghislain Geniaux et.al.|[2611.16592](http://arxiv.org/abs/2611.16592)|<span class="null">—</span>|
@@ -60,6 +61,14 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-25**|**PersonaFactory: Stylistic User Prompt Augmentation with Synthetic Persona Bank**|Bich Ngoc Doan et.al.|[2611.34785](http://arxiv.org/abs/2611.34785)|<span class="null">—</span>|
+|**2026-11-25**|**Commit2Drive: Perception-Grounded Language Decisions as Commitments for Trajectory Planning in Vision-Language-Action Driving Models**|Zikai Zhang et.al.|[2611.34614](http://arxiv.org/abs/2611.34614)|<span class="null">—</span>|
+|**2026-11-25**|**M $^{2}$ AdaptVLA: Multimodal Memory-Augmented Vision-Language-Action Model with Predictive Test-Time Adaptation**|Liufan Tan et.al.|[2611.34560](http://arxiv.org/abs/2611.34560)|<span class="null">—</span>|
+|**2026-11-25**|**A Calibration-Referenced Protocol for Measuring Decision Stability under Reference Bank Compression**|Yiwen Chen et.al.|[2611.34134](http://arxiv.org/abs/2611.34134)|<span class="null">—</span>|
+|**2026-11-25**|**Empirical De-Quantization and Norm-Controlled Spectral Audit of Quantum Cognition Machine Learning in an Emerging Equity Market**|Pavel Chuklanov et.al.|[2611.33942](http://arxiv.org/abs/2611.33942)|**[link](https://github.com/alpha7en/QCML_Emerging_Market)**|
+|**2026-11-25**|**SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation**|Zeyang Guan et.al.|[2611.33915](http://arxiv.org/abs/2611.33915)|**[link](https://github.com/ZeyangGuan/SEEK-Agentic-Robot-Manipulation)**|
+|**2026-11-25**|**Self-supervised Clipped-objective Reinforcement Leaning Framework for Risk-aware Portfolio Management**|Zongshen Mu et.al.|[2611.33652](http://arxiv.org/abs/2611.33652)|<span class="null">—</span>|
+|**2026-11-24**|**ArtLang-4D: Articulation-Aware Dynamic Language Fields from Monocular Videos**|Sylvia Yuan et.al.|[2611.33511](http://arxiv.org/abs/2611.33511)|<span class="null">—</span>|
 |**2026-11-24**|**ProX-MAD: Aggregating Spatial Context into Representative Proxies for Few-shot Medical Anomaly Detection**|Seunghyun Oh et.al.|[2611.32941](http://arxiv.org/abs/2611.32941)|<span class="null">—</span>|
 |**2026-11-24**|**One Subspace Is Not Enough: LocalSubspaceAD for Training-Free Few-Shot Anomaly Detection**|Daniel Pröll et.al.|[2611.32424](http://arxiv.org/abs/2611.32424)|<span class="null">—</span>|
 |**2026-11-24**|**AgentBank: Banking on Blockchain Agentic Payments**|Yuexin Xiang et.al.|[2611.32389](http://arxiv.org/abs/2611.32389)|<span class="null">—</span>|
@@ -162,6 +171,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-25**|**Predicting acute food crises and discovering actionable drivers with causal machine learning**|Mélissande Machefer et.al.|[2611.34629](http://arxiv.org/abs/2611.34629)|<span class="null">—</span>|
 |**2026-11-20**|**FairITR: Fairness-Aware Learning of Multicategory Individualized Treatment Rules**|Zeyu Chen et.al.|[2611.27894](http://arxiv.org/abs/2611.27894)|<span class="null">—</span>|
 |**2026-10-18**|**Evaluating Semantic Insensitivity in Financial Sentiment Analysis: Implications for Sustainable Financial Decision-Making**|Gabriela Cioboata et.al.|[2611.21653](http://arxiv.org/abs/2611.21653)|<span class="null">—</span>|
 |**2026-11-13**|**Rank Functions of Flag Matroids with Applications to Order-Neutral Submodular Valuations**|Nathaniel Vaduthala et.al.|[2611.18989](http://arxiv.org/abs/2611.18989)|<span class="null">—</span>|
@@ -198,6 +208,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-25**|**Can Large Language Models Estimate the Likely Technological Impact of Scientific Research? Evidence from Biotechnology**|Zhiyu Tao et.al.|[2611.34300](http://arxiv.org/abs/2611.34300)|<span class="null">—</span>|
 |**2026-11-23**|**Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study**|Sayed Amir Karim et.al.|[2611.31442](http://arxiv.org/abs/2611.31442)|**[link](https://github.com/pelloran-inc/pelloran-safety-lens)**|
 |**2026-11-18**|**Chemistry by Design (CbyD): A Machine-Readable Dataset of Expert-Curated Total Synthesis Routes**|Ryan E. Williams et.al.|[2611.24996](http://arxiv.org/abs/2611.24996)|<span class="null">—</span>|
 |**2026-11-19**|**Unified Law for Visual Tasks (The Four Laws of Computer Vision)**|Sen Fang et.al.|[2611.24917](http://arxiv.org/abs/2611.24917)|**[link](https://github.com/World-Snapshot/WSMs)**|

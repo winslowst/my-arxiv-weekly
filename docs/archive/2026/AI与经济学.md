@@ -1,8 +1,9 @@
 ## AI与经济学 (2026)
-> 31 papers, [archive 2026](./README.md)
+> 32 papers, [archive 2026](./README.md)
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-11-25**|**Predicting acute food crises and discovering actionable drivers with causal machine learning**|Mélissande Machefer et.al.|[2611.34629](http://arxiv.org/abs/2611.34629)|<span class="null">—</span>|
 |**2026-11-20**|**FairITR: Fairness-Aware Learning of Multicategory Individualized Treatment Rules**|Zeyu Chen et.al.|[2611.27894](http://arxiv.org/abs/2611.27894)|<span class="null">—</span>|
 |**2026-10-18**|**Evaluating Semantic Insensitivity in Financial Sentiment Analysis: Implications for Sustainable Financial Decision-Making**|Gabriela Cioboata et.al.|[2611.21653](http://arxiv.org/abs/2611.21653)|<span class="null">—</span>|
 |**2026-11-13**|**Rank Functions of Flag Matroids with Applications to Order-Neutral Submodular Valuations**|Nathaniel Vaduthala et.al.|[2611.18989](http://arxiv.org/abs/2611.18989)|<span class="null">—</span>|

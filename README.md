@@ -2,7 +2,7 @@
 
 > 每天抓取 arXiv 新论文，每周一汇总 arXiv + OpenAlex 期刊元数据推送一封邮件周报。本仓库由 [cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) fork 改造。
 
-## Updated on 2026.11.25
+## Updated on 2026.11.26
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -22,12 +22,13 @@
 
 |Year|城市经济|金融学|AI与经济学|企业创新|
 |---|---|---|---|---|
-|[2026](./docs/archive/2026/README.md)|[31](./docs/archive/2026/城市经济.md)|[97](./docs/archive/2026/金融学.md)|[31](./docs/archive/2026/AI与经济学.md)|[31](./docs/archive/2026/企业创新.md)|
+|[2026](./docs/archive/2026/README.md)|[32](./docs/archive/2026/城市经济.md)|[105](./docs/archive/2026/金融学.md)|[32](./docs/archive/2026/AI与经济学.md)|[32](./docs/archive/2026/企业创新.md)|
 
 ## 城市经济
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-25**|**Beyond Gentrification: quantifying the economic, social and cultural dimensions of neighbourhood change through housing markets and digital traces**|Alexis Comber et.al.|[2611.34214](http://arxiv.org/abs/2611.34214)|null|
 |**2026-11-16**|**A Game of Throngs: How Spotlight Tourism Reshapes Local Economies**|Mafalda Batalha et.al.|[2611.21364](http://arxiv.org/abs/2611.21364)|null|
 |**2026-11-13**|**DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery**|Kailai Sun et.al.|[2611.17878](http://arxiv.org/abs/2611.17878)|**[link](https://github.com/kailaisun/DySENSE)**|
 |**2026-11-12**|**Flexible nonlinear spatial autoregressive models under spatial confounding: a gradient boosting approach with closed-form estimation**|Ghislain Geniaux et.al.|[2611.16592](http://arxiv.org/abs/2611.16592)|null|
@@ -60,12 +61,20 @@
 |**2026-05-27**|**Population size and centrality effects on NO2 air pollution across and within European cities**|Yufei Wei et.al.|[2605.28672](http://arxiv.org/abs/2605.28672)|null|
 |**2026-05-22**|**Is Capability a Liability? More Capable Language Models Make Worse Forecasts When It Matters Most**|Nick Merrill et.al.|[2605.22672](http://arxiv.org/abs/2605.22672)|null|
 
-<p align=right>(<a href=#updated-on-20261125>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
 
 ## 金融学
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-25**|**PersonaFactory: Stylistic User Prompt Augmentation with Synthetic Persona Bank**|Bich Ngoc Doan et.al.|[2611.34785](http://arxiv.org/abs/2611.34785)|null|
+|**2026-11-25**|**Commit2Drive: Perception-Grounded Language Decisions as Commitments for Trajectory Planning in Vision-Language-Action Driving Models**|Zikai Zhang et.al.|[2611.34614](http://arxiv.org/abs/2611.34614)|null|
+|**2026-11-25**|**M $^{2}$ AdaptVLA: Multimodal Memory-Augmented Vision-Language-Action Model with Predictive Test-Time Adaptation**|Liufan Tan et.al.|[2611.34560](http://arxiv.org/abs/2611.34560)|null|
+|**2026-11-25**|**A Calibration-Referenced Protocol for Measuring Decision Stability under Reference Bank Compression**|Yiwen Chen et.al.|[2611.34134](http://arxiv.org/abs/2611.34134)|null|
+|**2026-11-25**|**Empirical De-Quantization and Norm-Controlled Spectral Audit of Quantum Cognition Machine Learning in an Emerging Equity Market**|Pavel Chuklanov et.al.|[2611.33942](http://arxiv.org/abs/2611.33942)|**[link](https://github.com/alpha7en/QCML_Emerging_Market)**|
+|**2026-11-25**|**SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation**|Zeyang Guan et.al.|[2611.33915](http://arxiv.org/abs/2611.33915)|**[link](https://github.com/ZeyangGuan/SEEK-Agentic-Robot-Manipulation)**|
+|**2026-11-25**|**Self-supervised Clipped-objective Reinforcement Leaning Framework for Risk-aware Portfolio Management**|Zongshen Mu et.al.|[2611.33652](http://arxiv.org/abs/2611.33652)|null|
+|**2026-11-24**|**ArtLang-4D: Articulation-Aware Dynamic Language Fields from Monocular Videos**|Sylvia Yuan et.al.|[2611.33511](http://arxiv.org/abs/2611.33511)|null|
 |**2026-11-24**|**ProX-MAD: Aggregating Spatial Context into Representative Proxies for Few-shot Medical Anomaly Detection**|Seunghyun Oh et.al.|[2611.32941](http://arxiv.org/abs/2611.32941)|null|
 |**2026-11-24**|**One Subspace Is Not Enough: LocalSubspaceAD for Training-Free Few-Shot Anomaly Detection**|Daniel Pröll et.al.|[2611.32424](http://arxiv.org/abs/2611.32424)|null|
 |**2026-11-24**|**AgentBank: Banking on Blockchain Agentic Payments**|Yuexin Xiang et.al.|[2611.32389](http://arxiv.org/abs/2611.32389)|null|
@@ -164,12 +173,13 @@
 |**2026-11-13**|**How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?**|Carlos Eduardo Martins Relvas et.al.|[2611.18914](http://arxiv.org/abs/2611.18914)|**[link](https://github.com/datarisk-io/fm-vs-gbdt-eval)**|
 |**2026-11-13**|**EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation**|Amir Mohammad Khadem Hosseini et.al.|[2611.18524](http://arxiv.org/abs/2611.18524)|null|
 
-<p align=right>(<a href=#updated-on-20261125>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
 
 ## AI与经济学
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-25**|**Predicting acute food crises and discovering actionable drivers with causal machine learning**|Mélissande Machefer et.al.|[2611.34629](http://arxiv.org/abs/2611.34629)|null|
 |**2026-11-20**|**FairITR: Fairness-Aware Learning of Multicategory Individualized Treatment Rules**|Zeyu Chen et.al.|[2611.27894](http://arxiv.org/abs/2611.27894)|null|
 |**2026-10-18**|**Evaluating Semantic Insensitivity in Financial Sentiment Analysis: Implications for Sustainable Financial Decision-Making**|Gabriela Cioboata et.al.|[2611.21653](http://arxiv.org/abs/2611.21653)|null|
 |**2026-11-13**|**Rank Functions of Flag Matroids with Applications to Order-Neutral Submodular Valuations**|Nathaniel Vaduthala et.al.|[2611.18989](http://arxiv.org/abs/2611.18989)|null|
@@ -202,12 +212,13 @@
 |**2026-06-28**|**Persona-Trained Monte Carlo: Estimating Market-Outcome Distributions via Swarms of Persona-Conditioned Neural Policy Bots in a Limit Order Book**|Salavat Ishbulatov et.al.|[2606.29556](http://arxiv.org/abs/2606.29556)|null|
 |**2026-06-23**|**A Step Towards Inherently Interpretable Causal Machine Learning Models For Decision Support**|David Zapata Gonzalez et.al.|[2606.24348](http://arxiv.org/abs/2606.24348)|null|
 
-<p align=right>(<a href=#updated-on-20261125>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
 
 ## 企业创新
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
+|**2026-11-25**|**Can Large Language Models Estimate the Likely Technological Impact of Scientific Research? Evidence from Biotechnology**|Zhiyu Tao et.al.|[2611.34300](http://arxiv.org/abs/2611.34300)|null|
 |**2026-11-23**|**Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study**|Sayed Amir Karim et.al.|[2611.31442](http://arxiv.org/abs/2611.31442)|**[link](https://github.com/pelloran-inc/pelloran-safety-lens)**|
 |**2026-11-18**|**Chemistry by Design (CbyD): A Machine-Readable Dataset of Expert-Curated Total Synthesis Routes**|Ryan E. Williams et.al.|[2611.24996](http://arxiv.org/abs/2611.24996)|null|
 |**2026-11-19**|**Unified Law for Visual Tasks (The Four Laws of Computer Vision)**|Sen Fang et.al.|[2611.24917](http://arxiv.org/abs/2611.24917)|**[link](https://github.com/World-Snapshot/WSMs)**|
@@ -240,7 +251,7 @@
 |**2026-10-14**|**Synthetic reaction data from transformation rules for graph-to-sequence pretraining in biodegradation pathway prediction**|Irsyaad Rijwan et.al.|[2610.19640](http://arxiv.org/abs/2610.19640)|null|
 |**2026-10-13**|**Interpreting Paper-to-Patent Citations in AI-Related PMC Articles**|Haowei Li et.al.|[2610.18109](http://arxiv.org/abs/2610.18109)|null|
 
-<p align=right>(<a href=#updated-on-20261125>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/winslowst/my-arxiv-weekly.svg?style=for-the-badge
 [contributors-url]: https://github.com/winslowst/my-arxiv-weekly/graphs/contributors
