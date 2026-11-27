@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p class="updated"><span class="dot"></span>Updated on 2026.11.26</p>
+<p class="updated"><span class="dot"></span>Updated on 2026.11.27</p>
 
 <nav class="toc">
 <a href="#城市经济">城市经济</a>
@@ -61,7 +61,7 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
-|**2026-11-25**|**PersonaFactory: Stylistic User Prompt Augmentation with Synthetic Persona Bank**|Bich Ngoc Doan et.al.|[2611.34785](http://arxiv.org/abs/2611.34785)|<span class="null">—</span>|
+|**2026-11-25**|**PersonaFactory: Stylistic User Prompt Augmentation with Synthetic Persona Bank**|Bich Ngoc Doan et.al.|[2611.34785](http://arxiv.org/abs/2611.34785)|**[link](https://github.com/swiss-ai/personafactory)**|
 |**2026-11-25**|**Commit2Drive: Perception-Grounded Language Decisions as Commitments for Trajectory Planning in Vision-Language-Action Driving Models**|Zikai Zhang et.al.|[2611.34614](http://arxiv.org/abs/2611.34614)|<span class="null">—</span>|
 |**2026-11-25**|**M $^{2}$ AdaptVLA: Multimodal Memory-Augmented Vision-Language-Action Model with Predictive Test-Time Adaptation**|Liufan Tan et.al.|[2611.34560](http://arxiv.org/abs/2611.34560)|<span class="null">—</span>|
 |**2026-11-25**|**A Calibration-Referenced Protocol for Measuring Decision Stability under Reference Bank Compression**|Yiwen Chen et.al.|[2611.34134](http://arxiv.org/abs/2611.34134)|<span class="null">—</span>|
@@ -80,7 +80,7 @@ layout: default
 |**2026-11-23**|**Query Obfuscation with Embedding-Optimized Noise (EON): A Representational Blindspot in Agentic Retrieval**|Ankit Gupta et.al.|[2611.31344](http://arxiv.org/abs/2611.31344)|<span class="null">—</span>|
 |**2026-11-23**|**GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind**|Anh Dao et.al.|[2611.30900](http://arxiv.org/abs/2611.30900)|**[link](https://github.com/GlanceNav/GlanceNav)**|
 |**2026-11-23**|**Predicting Rare-Mode Collapse in Recursive Generative Training from Single-Generation Calibration**|Jingyao Zhang et.al.|[2611.30897](http://arxiv.org/abs/2611.30897)|<span class="null">—</span>|
-|**2026-11-23**|**Doc-to-LoRA Analysis: Query Conditioning, Wrong Facts, and Distractor Interference**|Jesper Derehag et.al.|[2611.30825](http://arxiv.org/abs/2611.30825)|<span class="null">—</span>|
+|**2026-11-23**|**Doc-to-LoRA Analysis: Query Conditioning, Wrong Facts, and Distractor Interference**|Jesper Derehag et.al.|[2611.30825](http://arxiv.org/abs/2611.30825)|**[link](https://github.com/MidbrainAI/D2L_analysis)**|
 |**2026-11-23**|**CCFinance: Reconstructing Financial News Samples from Web Archives**|Marcus Gawronsky et.al.|[2611.30737](http://arxiv.org/abs/2611.30737)|**[link](https://github.com/marcusinthesky/CCFinance)**|
 |**2026-11-23**|**Zhengrong: World Models with Pole-Based Action-Response Factorization for Direct Visual Planning**|Yu Zhang et.al.|[2611.30666](http://arxiv.org/abs/2611.30666)|<span class="null">—</span>|
 |**2026-11-23**|**Beyond Naming Accuracy: Template Composition and Species-Name Decisions**|Junle li et.al.|[2611.30642](http://arxiv.org/abs/2611.30642)|<span class="null">—</span>|
