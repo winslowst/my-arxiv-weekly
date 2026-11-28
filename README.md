@@ -2,7 +2,7 @@
 
 > 每天抓取 arXiv 新论文，每周一汇总 arXiv + OpenAlex 期刊元数据推送一封邮件周报。本仓库由 [cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily) fork 改造。
 
-## Updated on 2026.11.27
+## Updated on 2026.11.28
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -61,7 +61,7 @@
 |**2026-05-27**|**Population size and centrality effects on NO2 air pollution across and within European cities**|Yufei Wei et.al.|[2605.28672](http://arxiv.org/abs/2605.28672)|null|
 |**2026-05-22**|**Is Capability a Liability? More Capable Language Models Make Worse Forecasts When It Matters Most**|Nick Merrill et.al.|[2605.22672](http://arxiv.org/abs/2605.22672)|null|
 
-<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261128>back to top</a>)</p>
 
 ## 金融学
 
@@ -82,7 +82,7 @@
 |**2026-11-24**|**Scoring What Matters: Exact Feedback Reduction for Language Model Comparison**|Hui Zhang et.al.|[2611.31931](http://arxiv.org/abs/2611.31931)|null|
 |**2026-11-23**|**The Matrix in Pieces: Complete BFSS Scattering at Finite Rank**|Mai Qi et.al.|[2611.31649](http://arxiv.org/abs/2611.31649)|null|
 |**2026-11-23**|**MSW: a Multi-Scale Sliced Wasserstein Distance Between Image Distributions**|Youssef Haouchat et.al.|[2611.31647](http://arxiv.org/abs/2611.31647)|null|
-|**2026-11-23**|**Pretrained Tabular Features and the Measurement of Financial Proximity**|Marcus Gawronsky et.al.|[2611.31491](http://arxiv.org/abs/2611.31491)|null|
+|**2026-11-23**|**Pretrained Tabular Features and the Measurement of Financial Proximity**|Marcus Gawronsky et.al.|[2611.31491](http://arxiv.org/abs/2611.31491)|**[link](https://github.com/marcusinthesky/free-foundations)**|
 |**2026-11-23**|**Query Obfuscation with Embedding-Optimized Noise (EON): A Representational Blindspot in Agentic Retrieval**|Ankit Gupta et.al.|[2611.31344](http://arxiv.org/abs/2611.31344)|null|
 |**2026-11-23**|**GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind**|Anh Dao et.al.|[2611.30900](http://arxiv.org/abs/2611.30900)|**[link](https://github.com/GlanceNav/GlanceNav)**|
 |**2026-11-23**|**Predicting Rare-Mode Collapse in Recursive Generative Training from Single-Generation Calibration**|Jingyao Zhang et.al.|[2611.30897](http://arxiv.org/abs/2611.30897)|null|
@@ -173,7 +173,7 @@
 |**2026-11-13**|**How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?**|Carlos Eduardo Martins Relvas et.al.|[2611.18914](http://arxiv.org/abs/2611.18914)|**[link](https://github.com/datarisk-io/fm-vs-gbdt-eval)**|
 |**2026-11-13**|**EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation**|Amir Mohammad Khadem Hosseini et.al.|[2611.18524](http://arxiv.org/abs/2611.18524)|null|
 
-<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261128>back to top</a>)</p>
 
 ## AI与经济学
 
@@ -212,7 +212,7 @@
 |**2026-06-28**|**Persona-Trained Monte Carlo: Estimating Market-Outcome Distributions via Swarms of Persona-Conditioned Neural Policy Bots in a Limit Order Book**|Salavat Ishbulatov et.al.|[2606.29556](http://arxiv.org/abs/2606.29556)|null|
 |**2026-06-23**|**A Step Towards Inherently Interpretable Causal Machine Learning Models For Decision Support**|David Zapata Gonzalez et.al.|[2606.24348](http://arxiv.org/abs/2606.24348)|null|
 
-<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261128>back to top</a>)</p>
 
 ## 企业创新
 
@@ -251,7 +251,7 @@
 |**2026-10-14**|**Synthetic reaction data from transformation rules for graph-to-sequence pretraining in biodegradation pathway prediction**|Irsyaad Rijwan et.al.|[2610.19640](http://arxiv.org/abs/2610.19640)|null|
 |**2026-10-13**|**Interpreting Paper-to-Patent Citations in AI-Related PMC Articles**|Haowei Li et.al.|[2610.18109](http://arxiv.org/abs/2610.18109)|null|
 
-<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261128>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/winslowst/my-arxiv-weekly.svg?style=for-the-badge
 [contributors-url]: https://github.com/winslowst/my-arxiv-weekly/graphs/contributors
